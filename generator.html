@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" class="dark-theme">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Post Generator | 3NDING</title>
+  <link rel="stylesheet" href="styles/generator.css">
+  <link rel="icon" href="apple-touch-icon.png" type="image/png">
+
+  <!-- marked.js for Markdown parsing -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <a href="#" class="logo">3NDING GENERATOR</a>
+    </nav>
+  </header>
+
+  <main class="blog-container">
+
+    <form id="generatorForm">
+      <div class="form-group">
+        <label for="postTitle">Article Title</label>
+        <input type="text" id="postTitle" placeholder="e.g., Must-Have Browser Extensions for 2026" required>
+      </div>
+
+      <div class="form-group">
+        <label for="postYear">Folder Year</label>
+        <select id="postYear" required>
+          <option value="2026" selected>2026</option>
+          <option value="2027">2027</option>
+          <option value="2028">2028</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="postCategory">Category</label>
+        <select id="postCategory" required>
+          <option value="Technology News">Technology News</option>
+          <option value="Artificial Intelligence">Artificial Intelligence</option>
+          <option value="Consumer Technology">Consumer Technology</option>
+          <option value="Guides & Tutorials">Guides & Tutorials</option>
+          <option value="Security & Privacy">Security & Privacy</option>
+          <option value="Softwares & Tools">Softwares & Tools</option>
+          <option value="Miscellaneous">Miscellaneous</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="postMeta">Meta Description</label>
+        <textarea id="postMeta" placeholder="A short description that will appear in search results and social cards..." required></textarea>
+      </div>
+
+      <div class="form-group">
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 8px;">
+          <label for="postContent" style="margin-bottom: 0;">Markdown Content</label>
+          <span id="wordCountDisplay" style="font-size: 0.8rem; color: var(--accent); font-weight: 600;">0 Words</span>
+        </div>
+        <textarea id="postContent" placeholder="Write your content in Markdown here..." required></textarea>
+      </div>
+
+      <div class="btn-group">
+        <button type="button" id="btnClear" class="btn-danger">Clear Form</button>
+        <button type="submit" class="btn-primary">Download HTML</button>
+      </div>
+    </form>
+
+    <section class="output-section active" id="outputSection">
+      <div class="output-header">
+        <h3>JSON Metadata</h3>
+        <button id="btnCopyJson" class="btn-secondary">Copy JSON</button>
+      </div>
+      <pre><code id="jsonPreview"></code></pre>
+    </section>
+  </main>
+
+  <script src="scripts/generator.js" defer></script>
+</body>
+
+</html>
