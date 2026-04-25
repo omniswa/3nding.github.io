@@ -16,8 +16,6 @@
   --accent-dim: rgba(255, 255, 255, 0.1);
   --bg-gradient: rgba(39, 39, 42, 0.3);
   --header-bg: rgba(9, 9, 11, 0.85);
-  --hero-grad-start: #ffffff;
-  --hero-grad-end: #71717a;
   --input-bg: rgba(255, 255, 255, 0.03);
   --input-bg-focus: rgba(255, 255, 255, 0.08);
   --text-placeholder: #52525b;
@@ -305,7 +303,7 @@ nav {
 .card {
   background: transparent;
   border: none;
-  border-top: 1px solid var(--border);
+  border-top: 1px solid transparent;
   padding: 24px 0 0 0;
   text-decoration: none;
   display: flex;

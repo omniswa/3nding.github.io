@@ -209,7 +209,7 @@ document.addEventListener("DOMContentLoaded", () => {
     <nav>
       <a href="#" class="logo">3NDING</a>
       <div class="nav-links">
-        <a href="#" id="link">LINK</a>
+        <a href="#" id="link">Link</a>
       </div>
     </nav>
   </header>
@@ -283,7 +283,7 @@ document.addEventListener("DOMContentLoaded", () => {
   </nav>
 
   <aside class="code-block"></aside>
-  <script src="../scripts/blog.js" defer><\/script>
+  <script src="../../scripts/blog.js" defer><\/script>
 </body>
 </html>`;
 

@@ -29,10 +29,7 @@
   letter-spacing: -0.03em;
   line-height: 1.15;
   margin-bottom: 24px;
-  background: linear-gradient(to right, var(--hero-grad-start), var(--hero-grad-end));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+  }
 
 .blog-meta {
   display: grid;
