@@ -4,7 +4,7 @@ const blogs2026 = [
     category: "Guides & Tutorials",
     published: "April 25, 2026",
     excerpt: "A practical look at how generative AI fits into real daily workflows—what works, what doesn't, and the habits that make the difference.",
-    link: "2026/generative-ai-in-daily-workflows-what-actually-sticks.html"
+    link: "blogs/2026/generative-ai-in-daily-workflows-what-actually-sticks.html"
   }
 ];
 

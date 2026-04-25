@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
   category: "${category}",
   published: "${displayDate}",
   excerpt: "${meta}",
-  link: "${year}/${slug}.html"
+  link: "blogs/${year}/${slug}.html"
 }`;
     jsonPreview.textContent = jsonOutput;
   }
