@@ -207,7 +207,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <body>
   <header>
     <nav>
-      <a href="#" class="logo">3NDING</a>
+      <a href="../../index.html" class="logo">3NDING</a>
       <div class="nav-links">
         <a href="#" id="link">Link</a>
       </div>
