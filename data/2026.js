@@ -12,6 +12,20 @@ const blogs2026 = [
     published: "April 26, 2026",
     excerpt: "A hands-on look at GitHub Copilot, Cursor, and Claude Code—how they actually perform in real dev workflows, where each breaks down, and which is worth paying for.",
     link: "blogs/2026/ai-coding-tools-in-2026-copilot-vs-cursor-vs-claude-code.html"
+  },
+  {
+    title: "Programming Language Trends: What's Gaining Traction in 2026",
+    category: "Guides & Tutorials",
+    published: "April 27, 2026",
+    excerpt: "Python leads, TypeScript overtook JavaScript on GitHub, and Rust is entering its mandate phase. Here's what the data actually shows about language adoption in 2026.",
+    link: "blogs/2026/programming-language-trends-what-s-gaining-traction-in-2026.html"
+  },
+  {
+    title: "Developer Productivity Tools That Actually Change How You Work",
+    category: "Guides & Tutorials",
+    published: "April 27, 2026",
+    excerpt: "A practical look at developer productivity tools and workflows in 2026—what works, what's overhyped, and how to build a stack that compounds over time.",
+    link: "blogs/2026/developer-productivity-tools-that-actually-change-how-you-work.html"
   }
 ];
 
