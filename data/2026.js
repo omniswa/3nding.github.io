@@ -40,6 +40,20 @@ const blogs2026 = [
     published: "April 28, 2026",
     excerpt: "Apple HomeKit, Google Home, Alexa, SmartThings, and Home Assistant compared on privacy, usability, and real-world performance in 2026—before you spend a dollar.",
     link: "blogs/2026/smart-home-ecosystems-compared-privacy-usability-and-what-actually-matters.html"
+  },
+  {
+    title: "How Data Breaches Actually Happen",
+    category: "Guides & Tutorials",
+    published: "April 29, 2026",
+    excerpt: "Data breaches rarely happen the way movies depict. Here's how attackers actually get in—and what makes most organizations so easy to compromise.",
+    link: "blogs/2026/how-data-breaches-actually-happen.html"
+  },
+  {
+    title: "Personal Cybersecurity Checklist for Non-Tech Users",
+    category: "Guides & Tutorials",
+    published: "April 29, 2026",
+    excerpt: "A practical personal cybersecurity checklist built for non-tech users—covering passwords, phishing, Wi-Fi, and account safety without the jargon.",
+    link: "blogs/2026/personal-cybersecurity-checklist-for-non-tech-users.html"
   }
 ];
 
