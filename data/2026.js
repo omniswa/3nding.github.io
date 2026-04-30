@@ -54,6 +54,20 @@ const blogs2026 = [
     published: "April 29, 2026",
     excerpt: "A practical personal cybersecurity checklist built for non-tech users—covering passwords, phishing, Wi-Fi, and account safety without the jargon.",
     link: "blogs/2026/personal-cybersecurity-checklist-for-non-tech-users.html"
+  },
+  {
+    title: "Why Most Tech Startups Fail",
+    category: "Guides & Tutorials",
+    published: "April 30, 2026",
+    excerpt: "Most tech startups don't die from bad ideas. They die from predictable, avoidable mistakes that founders only recognize in hindsight. Here's what actually goes wrong.",
+    link: "blogs/2026/why-most-tech-startups-fail.html"
+  },
+  {
+    title: "How Big Tech Actually Makes Money",
+    category: "Guides & Tutorials",
+    published: "April 30, 2026",
+    excerpt: "A clear breakdown of how Google, Meta, Amazon, Apple, and Microsoft make money—including the parts most explainers skip.",
+    link: "blogs/2026/how-big-tech-actually-makes-money.html"
   }
 ];
 
