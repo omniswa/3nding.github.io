@@ -68,6 +68,13 @@ const blogs2026 = [
     published: "April 30, 2026",
     excerpt: "A clear breakdown of how Google, Meta, Amazon, Apple, and Microsoft make money—including the parts most explainers skip.",
     link: "blogs/2026/how-big-tech-actually-makes-money.html"
+  },
+  {
+    title: "Friendster Is Back—and This Time, It's Not Selling You",
+    category: "Technology News",
+    published: "May 1, 2026",
+    excerpt: "Friendster relaunched in April 2026 as a private, ad-free iOS app. No algorithms, no data selling, and you can only add friends by tapping phones. Here's what that actually means.",
+    link: "blogs/2026/friendster-is-back-and-this-time-it-s-not-selling-you.html"
   }
 ];
 
