@@ -75,6 +75,13 @@ const blogs2026 = [
     published: "May 1, 2026",
     excerpt: "Friendster relaunched in April 2026 as a private, ad-free iOS app. No algorithms, no data selling, and you can only add friends by tapping phones. Here's what that actually means.",
     link: "blogs/2026/friendster-is-back-and-this-time-it-s-not-selling-you.html"
+  },
+  {
+    title: "QR Code Phishing Attacks Up 146%: What Microsoft's Q1 Data Reveals",
+    category: "Technology News",
+    published: "May 2, 2026",
+    excerpt: "Microsoft detected 8.3 billion phishing threats in Q1 2026. QR code attacks jumped 146% in 90 days—here's why they work and what security teams need to know.",
+    link: "blogs/2026/qr-code-phishing-attacks-up-146-what-microsoft-s-q1-data-reveals.html"
   }
 ];
 
