@@ -82,6 +82,13 @@ const blogs2026 = [
     published: "May 2, 2026",
     excerpt: "Microsoft detected 8.3 billion phishing threats in Q1 2026. QR code attacks jumped 146% in 90 days—here's why they work and what security teams need to know.",
     link: "blogs/2026/qr-code-phishing-attacks-up-146-what-microsoft-s-q1-data-reveals.html"
+  },
+  {
+    title: "ICANN's New gTLD Round Is Open: What It Means",
+    category: "Technology News",
+    published: "May 3, 2026",
+    excerpt: "ICANN opened new gTLD applications on April 30, 2026—the first time since 2012. Here's what changed, who should apply, and what it actually costs.",
+    link: "blogs/2026/icann-s-new-gtld-round-is-open-what-it-means.html"
   }
 ];
 
