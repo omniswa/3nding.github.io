@@ -89,6 +89,20 @@ const blogs2026 = [
     published: "May 3, 2026",
     excerpt: "ICANN opened new gTLD applications on April 30, 2026—the first time since 2012. Here's what changed, who should apply, and what it actually costs.",
     link: "blogs/2026/icann-s-new-gtld-round-is-open-what-it-means.html"
+  },
+  {
+    title: "Vibe Coding Tools Are Rewriting Who Gets to Build Software",
+    category: "Technology News",
+    published: "May 4, 2026",
+    excerpt: "Vibe coding tools like Cursor, Replit Agent, and Bolt are letting non-engineers ship real apps. Here's what's actually changing—and what still isn't.",
+    link: "blogs/2026/vibe-coding-tools-are-rewriting-who-gets-to-build-software.html"
+  },
+  {
+    title: "How AI Changed the Economics of Writing Clean Code",
+    category: "Technology News",
+    published: "May 4, 2026",
+    excerpt: "AI didn't just speed up coding—it restructured who pays the cost of clean code, when, and why. Here's what that actually means for developers.",
+    link: "blogs/2026/how-ai-changed-the-economics-of-writing-clean-code.html"
   }
 ];
 
