@@ -103,6 +103,13 @@ const blogs2026 = [
     published: "May 4, 2026",
     excerpt: "AI didn't just speed up coding—it restructured who pays the cost of clean code, when, and why. Here's what that actually means for developers.",
     link: "blogs/2026/how-ai-changed-the-economics-of-writing-clean-code.html"
+  },
+  {
+    title: "Instagram Plus: What It Is, What You Get, and Who It's Actually For",
+    category: "Technology News",
+    published: "May 5, 2026",
+    excerpt: "Instagram Plus is Meta's new paid subscription for everyday users—not creators. Here's every confirmed feature, current pricing, and what it actually changes.",
+    link: "blogs/2026/instagram-plus-what-it-is-what-you-get-and-who-it-s-actually-for.html"
   }
 ];
 
