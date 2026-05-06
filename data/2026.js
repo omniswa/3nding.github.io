@@ -110,6 +110,20 @@ const blogs2026 = [
     published: "May 5, 2026",
     excerpt: "Instagram Plus is Meta's new paid subscription for everyday users—not creators. Here's every confirmed feature, current pricing, and what it actually changes.",
     link: "blogs/2026/instagram-plus-what-it-is-what-you-get-and-who-it-s-actually-for.html"
+  },
+  {
+    title: "Keep Your Android Running Like New (Without Factory Resets)",
+    category: "Guides & Tutorials",
+    published: "May 6, 2026",
+    excerpt: "Practical ways to keep your Android phone fast, clean, and responsive—without wiping it or buying a new one. No tech degree required.",
+    link: "blogs/2026/keep-your-android-running-like-new-without-factory-resets.html"
+  },
+  {
+    title: "Best Mobile Antivirus Software of 2026",
+    category: "Guides & Tutorials",
+    published: "May 6, 2026",
+    excerpt: "The best mobile antivirus apps of 2026, tested and ranked — Bitdefender, Norton, TotalAV, and more. Real detection rates, pricing, and what actually matters for Android and iPhone.",
+    link: "blogs/2026/best-mobile-antivirus-software-of-2026.html"
   }
 ];
 
