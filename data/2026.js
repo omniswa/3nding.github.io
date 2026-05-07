@@ -124,6 +124,13 @@ const blogs2026 = [
     published: "May 6, 2026",
     excerpt: "The best mobile antivirus apps of 2026, tested and ranked — Bitdefender, Norton, TotalAV, and more. Real detection rates, pricing, and what actually matters for Android and iPhone.",
     link: "blogs/2026/best-mobile-antivirus-software-of-2026.html"
+  },
+  {
+    title: "Cut Claude Code Token Usage Without Killing Productivity",
+    category: "Guides & Tutorials",
+    published: "May 7, 2026",
+    excerpt: "Learn practical, tested ways to reduce Claude Code token usage—covering context management, model selection, CLAUDE.md hygiene, and smarter session habits.",
+    link: "blogs/2026/cut-claude-code-token-usage-without-killing-productivity.html"
   }
 ];
 
