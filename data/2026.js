@@ -92,7 +92,7 @@ const blogs2026 = [
   },
   {
     title: "Vibe Coding Tools Are Rewriting Who Gets to Build Software",
-    category: "Technology News",
+    category: "Guides & Tutorials",
     published: "May 4, 2026",
     excerpt: "Vibe coding tools like Cursor, Replit Agent, and Bolt are letting non-engineers ship real apps. Here's what's actually changing—and what still isn't.",
     link: "blogs/2026/vibe-coding-tools-are-rewriting-who-gets-to-build-software.html"
@@ -131,6 +131,13 @@ const blogs2026 = [
     published: "May 7, 2026",
     excerpt: "Learn practical, tested ways to reduce Claude Code token usage—covering context management, model selection, CLAUDE.md hygiene, and smarter session habits.",
     link: "blogs/2026/cut-claude-code-token-usage-without-killing-productivity.html"
+  },
+  {
+    title: "Meta Ends Instagram DM Encryption: What It Really Means",
+    category: "Technology News",
+    published: "May 8, 2026",
+    excerpt: "Meta removed end-to-end encryption from Instagram DMs on May 8, 2026. Here's what changed, why it happened, and what to do now.",
+    link: "blogs/2026/meta-ends-instagram-dm-encryption-what-it-really-means.html"
   }
 ];
 
