@@ -138,6 +138,34 @@ const blogs2026 = [
     published: "May 8, 2026",
     excerpt: "Meta removed end-to-end encryption from Instagram DMs on May 8, 2026. Here's what changed, why it happened, and what to do now.",
     link: "blogs/2026/meta-ends-instagram-dm-encryption-what-it-really-means.html"
+  },
+  {
+    title: "Cloudflare Cuts 1,100 Jobs at Its Revenue Peak",
+    category: "Technology News",
+    published: "May 9, 2026",
+    excerpt: "Cloudflare laid off 20% of its workforce during a record quarter. Here's what actually happened, what it signals about AI and jobs, and why the market punished the news anyway.",
+    link: "blogs/2026/cloudflare-cuts-1-100-jobs-at-its-revenue-peak.html"
+  },
+  {
+    title: "SpaceX's $55B Terafab: America's Biggest Chip Bet Yet",
+    category: "Technology News",
+    published: "May 9, 2026",
+    excerpt: "SpaceX filed plans for a $55B–$119B semiconductor facility in Texas called Terafab. Here's what the project actually is, why it matters, and what stands in the way.",
+    link: "blogs/2026/spacex-s-55b-terafab-america-s-biggest-chip-bet-yet.html"
+  },
+  {
+    title: "Ai2's New Computing Cluster Is Live—and It's Not for Big Tech",
+    category: "Technology News",
+    published: "May 9, 2026",
+    excerpt: "Allen Institute for AI's OMAI computing cluster, powered by Nvidia Blackwell Ultra and backed by $152M in NSF and Nvidia funding, is now online and already producing results.",
+    link: "blogs/2026/ai2-s-new-computing-cluster-is-live-and-it-s-not-for-big-tech.html"
+  },
+  {
+    title: "Canvas Breached: What the Instructure Hack Means for 275 Million Students",
+    category: "Technology News",
+    published: "May 9, 2026",
+    excerpt: "ShinyHunters hacked Canvas LMS in May 2026, exposing 275M records across 8,800+ schools. Here's what happened, what data was stolen, and what comes next.",
+    link: "blogs/2026/canvas-breached-what-the-instructure-hack-means-for-275-million-students.html"
   }
 ];
 
