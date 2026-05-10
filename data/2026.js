@@ -166,6 +166,13 @@ const blogs2026 = [
     published: "May 9, 2026",
     excerpt: "ShinyHunters hacked Canvas LMS in May 2026, exposing 275M records across 8,800+ schools. Here's what happened, what data was stolen, and what comes next.",
     link: "blogs/2026/canvas-breached-what-the-instructure-hack-means-for-275-million-students.html"
+  },
+  {
+    title: "Affordable Phones With Long Battery Life That Actually Deliver",
+    category: "Consumer Technology",
+    published: "May 10, 2026",
+    excerpt: "The best affordable phones with long-lasting batteries in 2026—real-world picks, what specs actually matter, and which budget devices go the distance.",
+    link: "blogs/2026/affordable-phones-with-long-battery-life-that-actually-deliver.html"
   }
 ];
 
