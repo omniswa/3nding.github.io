@@ -173,6 +173,20 @@ const blogs2026 = [
     published: "May 10, 2026",
     excerpt: "The best affordable phones with long-lasting batteries in 2026—real-world picks, what specs actually matter, and which budget devices go the distance.",
     link: "blogs/2026/affordable-phones-with-long-battery-life-that-actually-deliver.html"
+  },
+  {
+    title: "Google's Security Tools That Actually Protect You",
+    category: "Guides & Tutorials",
+    published: "May 11, 2026",
+    excerpt: "Google offers powerful, often overlooked security tools to protect your accounts. Here's what they do, how to use them, and which ones matter most.",
+    link: "blogs/2026/google-s-security-tools-that-actually-protect-you.html"
+  },
+  {
+    title: "Speed Up Your Android Phone for Free",
+    category: "Guides & Tutorials",
+    published: "May 11, 2026",
+    excerpt: "Your Android phone doesn't need a factory reset or a new model. These free fixes actually work—no apps to buy, no gimmicks.",
+    link: "blogs/2026/speed-up-your-android-phone-for-free.html"
   }
 ];
 
