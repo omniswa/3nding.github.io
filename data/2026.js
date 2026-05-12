@@ -187,6 +187,20 @@ const blogs2026 = [
     published: "May 11, 2026",
     excerpt: "Your Android phone doesn't need a factory reset or a new model. These free fixes actually work—no apps to buy, no gimmicks.",
     link: "blogs/2026/speed-up-your-android-phone-for-free.html"
+  },
+  {
+    title: "TECNO CAMON 50 Ultra 5G: Full Specs Breakdown",
+    category: "Consumer Technology",
+    published: "May 12, 2026",
+    excerpt: "TECNO CAMON 50 Ultra 5G specs explained—50MP Sony camera, 6500mAh battery, Dimensity 7400, IP69K build, and what each feature actually means for daily use.",
+    link: "blogs/2026/tecno-camon-50-ultra-5g-full-specs-breakdown.html"
+  },
+  {
+    title: "Venmo Finally Makes Privacy the Default",
+    category: "Technology News",
+    published: "May 12, 2026",
+    excerpt: "Venmo's 2026 redesign changes its default privacy setting from public to friends-only. Here's what changed, why it took eight years, and what it means for your 90 million fellow users.",
+    link: "blogs/2026/venmo-finally-makes-privacy-the-default.html"
   }
 ];
 
