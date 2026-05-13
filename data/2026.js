@@ -201,6 +201,13 @@ const blogs2026 = [
     published: "May 12, 2026",
     excerpt: "Venmo's 2026 redesign changes its default privacy setting from public to friends-only. Here's what changed, why it took eight years, and what it means for your 90 million fellow users.",
     link: "blogs/2026/venmo-finally-makes-privacy-the-default.html"
+  },
+  {
+    title: "Google Kills the Chromebook (Kind Of): What Googlebook Actually Is",
+    category: "Technology News",
+    published: "May 13, 2026",
+    excerpt: "Google just announced the Googlebook — an Android-powered Chromebook successor built around Gemini. Here's what's confirmed, what's vague, and what it means for the future of budget laptops.",
+    link: "blogs/2026/google-kills-the-chromebook-kind-of-what-googlebook-actually-is.html"
   }
 ];
 
