@@ -208,6 +208,20 @@ const blogs2026 = [
     published: "May 13, 2026",
     excerpt: "Google just announced the Googlebook — an Android-powered Chromebook successor built around Gemini. Here's what's confirmed, what's vague, and what it means for the future of budget laptops.",
     link: "blogs/2026/google-kills-the-chromebook-kind-of-what-googlebook-actually-is.html"
+  },
+  {
+    title: "Android 17: The Best New Features",
+    category: "Technology News",
+    published: "May 14, 2026",
+    excerpt: "Android 17 is more than an incremental update. Here are the best new features—from agentic Gemini AI to overhauled security—and what they actually mean for daily use.",
+    link: "blogs/2026/android-17-the-best-new-features.html"
+  },
+  {
+    title: "Optimize Your Website for AI Crawlers",
+    category: "Guides & Tutorials",
+    published: "May 14, 2026",
+    excerpt: "Learn how to optimize your website for AI crawlers and agents in 2026—structured data, llms.txt, semantic clarity, and what actually moves the needle.",
+    link: "blogs/2026/optimize-your-website-for-ai-crawlers.html"
   }
 ];
 
