@@ -20,8 +20,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const category = categoryInput.value;
     const markdown = document.getElementById("postContent").value.trim();
 
-    // Generate Slug
-    const slug = title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+    // Generate Slug (Strip apostrophes first to attach letters natively, e.g., "It's" -> "Its")
+    const slug = title.toLowerCase()
+      .replace(/['\u2018\u2019]/g, '') // Removes standard and curly apostrophes
+      .replace(/[^a-z0-9]+/g, '-') 
+      .replace(/(^-|-$)/g, '');
     const currentOrigin = window.location.origin !== "null" ? window.location.origin : "https://3nding.top";
 
     // Process Content
@@ -57,10 +60,11 @@ document.addEventListener("DOMContentLoaded", () => {
     if (node.nodeType === 3) { // Text node
       let text = node.nodeValue;
       // Opening/Closing double quotes
-      text = text.replace(/(^|[\s(\[{<])"/g, "$1\u201c");
+      // Extended regex boundary handling: space, parenthesis, brackets, dashes (-, en, em), slash, colon, equals, existing quotes
+      text = text.replace(/(^|[\s(\[{<>\-\/\u2013\u2014\u2018\u201c:=])"/g, "$1\u201c");
       text = text.replace(/"/g, "\u201d");
       // Opening/Closing single quotes (apostrophes)
-      text = text.replace(/(^|[\s(\[{<])'/g, "$1\u2018");
+      text = text.replace(/(^|[\s(\[{<>\-\/\u2013\u2014\u2018\u201c:=])'/g, "$1\u2018");
       text = text.replace(/'/g, "\u2019");
       node.nodeValue = text;
     } else if (node.nodeType === 1) { // Element node
@@ -116,7 +120,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const markdown = document.getElementById("postContent").value.trim();
 
     // Generate Slug
-    const slug = title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+    const slug = title.toLowerCase()
+      .replace(/['\u2018\u2019]/g, '') // Removes standard and curly apostrophes
+      .replace(/[^a-z0-9]+/g, '-') 
+      .replace(/(^-|-$)/g, '');
     const currentOrigin = window.location.origin !== "null" ? window.location.origin : "https://3nding.top";
 
     // Process Content
