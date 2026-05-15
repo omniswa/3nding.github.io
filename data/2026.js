@@ -222,6 +222,20 @@ const blogs2026 = [
     published: "May 14, 2026",
     excerpt: "Learn how to optimize your website for AI crawlers and agents in 2026—structured data, llms.txt, semantic clarity, and what actually moves the needle.",
     link: "blogs/2026/optimize-your-website-for-ai-crawlers.html"
+  },
+  {
+    title: "Spotify Adopts Apple's HLS for Video Podcasts",
+    category: "Technology News",
+    published: "May 15, 2026",
+    excerpt: "Spotify is adopting Apple's HLS video technology for cross-platform podcast distribution. Here's what it means for creators, listeners, and the podcast industry.",
+    link: "blogs/2026/spotify-adopts-apple-s-hls-for-video-podcasts.html"
+  },
+  {
+    title: "MediaTek's Dual Packaging Bet: EMIB vs CoWoS",
+    category: "Technology News",
+    published: "May 15, 2026",
+    excerpt: "MediaTek is quietly running two advanced packaging strategies at once—TSMC CoWoS and Intel EMIB—as it scales into AI ASICs. Here's what that actually means.",
+    link: "blogs/2026/mediatek-s-dual-packaging-bet-emib-vs-cowos.html"
   }
 ];
 
