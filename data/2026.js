@@ -236,6 +236,20 @@ const blogs2026 = [
     published: "May 15, 2026",
     excerpt: "MediaTek is quietly running two advanced packaging strategies at once—TSMC CoWoS and Intel EMIB—as it scales into AI ASICs. Here's what that actually means.",
     link: "blogs/2026/mediatek-s-dual-packaging-bet-emib-vs-cowos.html"
+  },
+  {
+    title: "Codex Goes Mobile: What OpenAI's Remote Access Means",
+    category: "Technology News",
+    published: "May 16, 2026",
+    excerpt: "OpenAI added Codex remote access to the ChatGPT mobile app on May 14, 2026. Here's how it works, what it actually does, and how it compares to Claude Code.",
+    link: "blogs/2026/codex-goes-mobile-what-openais-remote-access-means.html"
+  },
+  {
+    title: "Best Book-Style Foldables of 2026: Ranked",
+    category: "Consumer Technology",
+    published: "May 16, 2026",
+    excerpt: "Samsung Galaxy Z Fold 7 vs. Pixel 10 Pro Fold vs. Motorola Razr Fold — a practical breakdown of price, battery, cameras, and which one is actually worth buying.",
+    link: "blogs/2026/best-book-style-foldables-of-2026-ranked.html"
   }
 ];
 
