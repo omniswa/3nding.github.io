@@ -250,6 +250,13 @@ const blogs2026 = [
     published: "May 16, 2026",
     excerpt: "Samsung Galaxy Z Fold 7 vs. Pixel 10 Pro Fold vs. Motorola Razr Fold — a practical breakdown of price, battery, cameras, and which one is actually worth buying.",
     link: "blogs/2026/best-book-style-foldables-of-2026-ranked.html"
+  },
+  {
+    title: "ChatGPT Now Connects to Your Bank Account",
+    category: "Technology News",
+    published: "May 17, 2026",
+    excerpt: "OpenAI launched ChatGPT personal finance tools on May 15, 2026. Here's what it actually does, what it can't do, and whether it's worth your data.",
+    link: "blogs/2026/chatgpt-now-connects-to-your-bank-account.html"
   }
 ];
 
