@@ -257,6 +257,20 @@ const blogs2026 = [
     published: "May 17, 2026",
     excerpt: "OpenAI launched ChatGPT personal finance tools on May 15, 2026. Here's what it actually does, what it can't do, and whether it's worth your data.",
     link: "blogs/2026/chatgpt-now-connects-to-your-bank-account.html"
+  },
+  {
+    title: "Nokia Shares Jump on Cisco's AI Network Surge",
+    category: "Technology News",
+    published: "May 18, 2026",
+    excerpt: "Nokia stock climbed 10%+ after Cisco's blowout Q3 2026 results revealed 25% networking revenue growth. Here's what the move means for NOK investors.",
+    link: "blogs/2026/nokia-shares-jump-on-ciscos-ai-network-surge.html"
+  },
+  {
+    title: "Q-Day Is Coming. It's Worse Than Y2K",
+    category: "Technology News",
+    published: "May 18, 2026",
+    excerpt: "Q-Day—when quantum computers break modern encryption—is closer than most organizations realize. Here's what's at stake, what's already happening, and what to do before it's too late.",
+    link: "blogs/2026/q-day-is-coming-its-worse-than-y2k.html"
   }
 ];
 
