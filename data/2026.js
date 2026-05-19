@@ -271,6 +271,20 @@ const blogs2026 = [
     published: "May 18, 2026",
     excerpt: "Q-Day—when quantum computers break modern encryption—is closer than most organizations realize. Here's what's at stake, what's already happening, and what to do before it's too late.",
     link: "blogs/2026/q-day-is-coming-its-worse-than-y2k.html"
+  },
+  {
+    title: "PlayStation Plus Is Getting More Expensive—Again",
+    category: "Technology News",
+    published: "May 19, 2026",
+    excerpt: "PS Plus Essential prices rise May 20, 2026 for new subscribers. Here's what's changing, who's actually affected, and what Sony still isn't saying.",
+    link: "blogs/2026/playstation-plus-is-getting-more-expensive-again.html"
+  },
+  {
+    title: "CISA Contractor Leaked AWS GovCloud Keys on GitHub",
+    category: "Technology News",
+    published: "May 19, 2026",
+    excerpt: "A Nightwing contractor exposed CISA's AWS GovCloud credentials, plaintext passwords, and build secrets on a public GitHub repo for six months. Here's what happened and why it matters.",
+    link: "blogs/2026/cisa-contractor-leaked-aws-govcloud-keys-on-github.html"
   }
 ];
 

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+
+  <title>CISA Contractor Leaked AWS GovCloud Keys on GitHub | 3NDING</title>
+  <meta name="description" content="A Nightwing contractor exposed CISA's AWS GovCloud credentials, plaintext passwords, and build secrets on a public GitHub repo for six months. Here's what happened and why it matters.">
+
+  <!-- Canonical URL (Prevents duplicate content issues) -->
+  <link rel="canonical" href="https://3nding.top/blogs/2026/cisa-contractor-leaked-aws-govcloud-keys-on-github.html">
+
+  <!-- Open Graph / Facebook (For rich social sharing) -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://3nding.top/blogs/2026/cisa-contractor-leaked-aws-govcloud-keys-on-github.html">
+  <meta property="og:title" content="CISA Contractor Leaked AWS GovCloud Keys on GitHub">
+  <meta property="og:description" content="A Nightwing contractor exposed CISA's AWS GovCloud credentials, plaintext passwords, and build secrets on a public GitHub repo for six months. Here's what happened and why it matters.">
+  <meta property="og:image" content="https://3nding.top/images/cisa-contractor-leaked-aws-govcloud-keys-on-github.webp">
+  <meta property="og:site_name" content="3NDING">
+  <meta property="article:published_time" content="2026-05-19T13:43:56.996Z">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://3nding.top/blogs/2026/cisa-contractor-leaked-aws-govcloud-keys-on-github.html">
+  <meta name="twitter:title" content="CISA Contractor Leaked AWS GovCloud Keys on GitHub">
+  <meta name="twitter:description" content="A Nightwing contractor exposed CISA's AWS GovCloud credentials, plaintext passwords, and build secrets on a public GitHub repo for six months. Here's what happened and why it matters.">
+  <meta name="twitter:image" content="https://3nding.top/images/cisa-contractor-leaked-aws-govcloud-keys-on-github.webp">
+
+  <link rel="icon" href="../../apple-touch-icon.png" type="image/png">
+  <link rel="preload" href="../../fonts/outfit.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../../styles/index.css">
+  <link rel="stylesheet" href="../../styles/blog.css">
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://3nding.top/blogs/2026/cisa-contractor-leaked-aws-govcloud-keys-on-github.html"
+      },
+      "headline": "CISA Contractor Leaked AWS GovCloud Keys on GitHub",
+      "description": "A Nightwing contractor exposed CISA's AWS GovCloud credentials, plaintext passwords, and build secrets on a public GitHub repo for six months. Here's what happened and why it matters.",
+      "image": "https://3nding.top/images/cisa-contractor-leaked-aws-govcloud-keys-on-github.webp",
+      "author": {
+        "@type": "Organization",
+        "name": "3NDING",
+        "url": "https://3nding.top"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "3NDING",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://3nding.top/apple-touch-icon.png"
+        }
+      },
+      "datePublished": "2026-05-19T13:43:56.996Z",
+      "dateModified": "2026-05-19T13:43:56.996Z"
+    }
+  </script>
+
+  <script>
+    const savedTheme = localStorage.getItem('3nding_theme');
+    const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+    if (savedTheme === 'light' || (!savedTheme && prefersLight)) {
+      document.documentElement.classList.add('light-theme');
+    }
+  </script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="../../index.html" class="logo">3NDING</a>
+      <div class="nav-links">
+        <a href="#" id="link">Link</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="blog-container">
+    <article class="blog-content">
+      <section class="blog-header">
+        <span class="blog-category">Technology News</span>
+        <h1>CISA Contractor Leaked AWS GovCloud Keys on GitHub</h1>
+        <div class="blog-meta">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+              <line x1="16" y1="2" x2="16" y2="6"></line>
+              <line x1="8" y1="2" x2="8" y2="6"></line>
+              <line x1="3" y1="10" x2="21" y2="10"></line>
+            </svg>
+            May 19, 2026
+          </span>
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+            8-Minute Read
+          </span>
+        </div>
+      </section>
+
+      <article class="article-content">
+        <hr>
+<p>The agency responsible for protecting U.S. federal infrastructure from cyberattacks just had one of its contractors expose the keys to its own cloud kingdom on the open internet — for six months. A Nightwing contractor maintained a public GitHub repository named “Private-CISA” that harbored highly privileged AWS GovCloud credentials, plaintext passwords for dozens of internal CISA systems, cloud tokens, and detailed records of how the agency builds and deploys its software. <a href="https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/" target="_blank" rel="nofollow noopener">[Krebs on Security]</a> The irony is almost too on-the-nose. But there’s nothing funny about the actual exposure.</p>
+<hr>
+<h2>What Was Actually in the Repository</h2>
+<p>One exposed file, titled “importantAWStokens,” contained administrative credentials for three Amazon AWS GovCloud servers. A second file — “AWS-Workspace-Firefox-Passwords.csv” — listed plaintext usernames and passwords for dozens of internal CISA systems, including one labeled “LZ-DSO,” which appears to stand for “Landing Zone DevSecOps,” the agency’s secure software development environment. <a href="https://cybersecurity.fullcoll.edu/2026/05/18/cisa-admin-leaked-aws-govcloud-keys-on-github/" target="_blank" rel="nofollow noopener">[Fullcoll]</a></p>
+<p>That’s not a careless slip. That’s a comprehensive roadmap.</p>
+<p>The archive also included plain-text credentials to CISA’s internal Artifactory — essentially the repository of all code packages the agency uses to build software. <a href="https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/" target="_blank" rel="nofollow noopener">[Krebs on Security]</a> Philippe Caturegli, founder of the security consultancy Seralys, explained why that’s particularly dangerous: “Backdoor some software packages, and every time they build something new they deploy your backdoor left and right.” <a href="https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/" target="_blank" rel="nofollow noopener">[Krebs on Security]</a> Supply chain access through a trusted build system is exactly how sophisticated attackers prefer to establish persistence. It’s quiet, durable, and hard to detect after the fact.</p>
+<p>The file naming alone tells a story about the security culture at play. Files called “importantAWStokens” and “AWS-Workspace-Firefox-Passwords.csv” weren’t accidentally committed alongside some innocuous test data — they were organized, titled, and regularly updated.</p>
+<hr>
+<h2>How It Was Found, and How Long It Had Been There</h2>
+<p>The “Private-CISA” repository remained publicly accessible from November 13, 2025 until mid-May 2026, when independent researchers alerted CISA to the exposure. <a href="https://cyberpress.org/cisa-admin-exposes-aws-govcloud/" target="_blank" rel="nofollow noopener">[Cyber Press]</a> That’s roughly six months of an open window into federal cloud infrastructure.</p>
+<p>On May 15, 2026, Guillaume Valadon, a cybersecurity researcher at GitGuardian — a firm that continuously scans public repositories for exposed secrets — flagged the repository after the account owner failed to respond to automated alerts. <a href="https://cyberpress.org/cisa-admin-exposes-aws-govcloud/" target="_blank" rel="nofollow noopener">[Cyber Press]</a> GitGuardian’s tooling is designed precisely for this kind of passive exposure. It sends automated notifications. The contractor received them. Nothing happened.</p>
+<p>Caturegli confirmed the exposed credentials could authenticate to three AWS GovCloud accounts at a high privilege level. <a href="https://cybersecurity.fullcoll.edu/2026/05/18/cisa-admin-leaked-aws-govcloud-keys-on-github/" target="_blank" rel="nofollow noopener">[Fullcoll]</a> He tested the keys to verify they were real, not a honeypot or dummy data — and they worked. After the repository was taken offline following disclosure, the exposed AWS credentials remained valid for nearly 48 additional hours. <a href="https://app.daily.dev/posts/cisa-admin-leaked-aws-govcloud-keys-on-github-krebs-on-security-vfhrwzrdj" target="_blank" rel="nofollow noopener">[Daily.dev]</a> Rotating credentials should be the first step in an incident response playbook, not an afterthought that takes two days.</p>
+<hr>
+<h2>The Detail That Makes This Worse</h2>
+<p>Analysis of the commit logs revealed the contractor had deliberately disabled GitHub’s built-in secret-scanning feature, which is designed to block users from publishing SSH keys or sensitive credentials to public repositories. <a href="https://cyberpress.org/cisa-admin-exposes-aws-govcloud/" target="_blank" rel="nofollow noopener">[Cyber Press]</a></p>
+<p>This is the part that separates negligence from something harder to explain. GitHub’s secret scanning is enabled by default. Turning it off requires an intentional action. Valadon’s summary of what he found — “Passwords stored in plain text in a CSV, backups in git, explicit commands to disable GitHub secrets detection” <a href="https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/" target="_blank" rel="nofollow noopener">[Krebs on Security]</a> — isn’t a description of an accidental misstep. It’s a description of a systematic pattern of bad practice, decisions stacked on decisions.</p>
+<p>Caturegli’s assessment is that the repository was used as a working scratchpad or synchronization mechanism rather than a curated project repository. The use of both a CISA-associated email address and a personal email address suggests it may have been used across differently configured environments. <a href="https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/" target="_blank" rel="nofollow noopener">[Krebs on Security]</a> In other words: the contractor was probably syncing files between a work laptop and a home machine using a public GitHub repo as the middleman. A USB drive would have been safer.</p>
+<p>Valadon told KrebsOnSecurity: “This is the worst leak I’ve witnessed in my career. It is obviously an individual’s mistake, but it might reveal internal practices.” <a href="https://www.ibtimes.com.au/cisa-credentials-exposed-github-breach-1869122" target="_blank" rel="nofollow noopener">[International Business Times]</a> That qualifier — “internal practices” — is doing a lot of work. A single contractor making an isolated bad decision is one story. A contractor making that decision without any automated monitoring catching it for six months is a different story entirely.</p>
+<hr>
+<h2>The “No Evidence of Compromise” Problem</h2>
+<p>CISA’s official response followed a familiar government template. A spokesperson wrote: “Currently, there is no indication that any sensitive data was compromised as a result of this incident. While we hold our team members to the highest standards of integrity and operational awareness, we are working to ensure additional safeguards are implemented to prevent future occurrences.” <a href="https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/" target="_blank" rel="nofollow noopener">[Krebs on Security]</a></p>
+<p>“No indication of compromise” is not the same as “no compromise occurred.” It means investigators haven’t found forensic evidence of unauthorized access — yet. AWS GovCloud does provide detailed access logs, so it’s technically possible to audit whether those credentials were used by anyone other than the contractor. But six months is a long window. And the most patient attackers don’t trigger alerts because they’re not doing anything dramatic; they’re mapping the environment and waiting.</p>
+<p>The Artifactory exposure is the sleeper threat here. A backdoor planted in a build dependency six months ago might not surface until a future deployment cycle, long after this incident has cycled out of the news.</p>
+<hr>
+<h2>The Staffing Context</h2>
+<p>The incident arrives at a particularly vulnerable moment for CISA. The agency has shed nearly a third of its workforce since the start of the second Trump administration, dropping from approximately 3,400 employees to around 2,400 by late 2025 through a combination of forced retirements, voluntary buyouts, and resignations. <a href="https://cyberpress.org/cisa-admin-exposes-aws-govcloud/" target="_blank" rel="nofollow noopener">[Cyber Press]</a></p>
+<p>That context matters, though not as an excuse. Reduced staffing means reduced capacity for the kind of continuous monitoring that would catch a public repository sitting open for months. It also means more reliance on contractors — and more surface area for exactly this kind of failure. Oversight gaps scale with headcount gaps.</p>
+<p>The now-defunct repository also showed the contractor used easily guessed passwords for several internal resources — many consisting of each platform’s name followed by the current year. <a href="https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/" target="_blank" rel="nofollow noopener">[Krebs on Security]</a> Platformname2025 is not a password strategy. It’s a placeholder that never got replaced. These aren’t the credentials of someone operating under strict internal security standards; they’re the credentials of someone who wasn’t being checked.</p>
+<hr>
+<h2>What the Contractor Architecture Gets Wrong</h2>
+<p>There’s a structural problem here that goes beyond one person’s behavior. Nightwing is a government contractor based in Dulles, Virginia. Nightwing declined to comment, directing all inquiries to CISA. <a href="https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/" target="_blank" rel="nofollow noopener">[Krebs on Security]</a> That deflection is itself informative. When a contractor causes a federal security incident, the accountability chain gets murky fast. CISA owns the systems. Nightwing employed the person. Neither is eager to own the outcome.</p>
+<p>Contractors working on sensitive federal systems often operate with high-privilege access but under less stringent day-to-day oversight than government employees. They may use personal devices, personal accounts, and personal workflows — because no one told them not to, or because the bureaucratic friction of doing it the approved way made the workaround feel harmless. A public GitHub repo as a sync mechanism is exactly the kind of shadow IT that emerges when proper tooling isn’t provided and nobody’s watching.</p>
+<p>The deeper question Valadon raised — whether this reflects internal practices rather than just individual behavior — points to whether CISA had any systematic controls for detecting this kind of exposure in the first place. GitGuardian, a third-party vendor, found it. CISA’s own monitoring apparently didn’t.</p>
+<hr>
+<h2>What Should Have Prevented This</h2>
+<p>The technology to catch this exists and is not expensive. GitGuardian itself offers free tiers for monitoring public repositories. GitHub’s native secret scanning is on by default. AWS has tools for detecting when valid credentials are being used from unexpected locations or at unusual times. Any of these, functioning correctly, would have surfaced this exposure long before six months had elapsed.</p>
+<p>The failure here isn’t a zero-day. It’s a process failure — a contractor who disabled the controls, a monitoring infrastructure that wasn’t watching, and an incident response that took 48 hours to rotate credentials that should have been invalidated within minutes of discovery.</p>
+<p>For organizations outside the federal government, the lesson is practical: secret scanning shouldn’t be something that individuals can turn off without approval. Commit history in any repository, public or private, should be scanned retroactively, not just at the point of push. And AWS GovCloud credentials — or any cloud credentials with administrative scope — should be governed by short-lived tokens and role assumption patterns that make static, long-lived keys structurally impossible to leak in the first place.</p>
+<p>The CISA contractor didn’t create a novel attack surface. He just left a door open that the right tools would have flagged immediately. That’s what makes this incident so frustrating: it was entirely preventable with controls that have been standard practice in security-conscious organizations for years.</p>
+
+      </article>
+    </article>
+  </main>
+
+  <footer>
+    <div class="f-links">
+      <a href="../../pages/about.html">About</a>
+      <a href="../../pages/contact.html">Contact</a>
+      <a href="../../pages/privacy.html">Privacy</a>
+      <a href="../../pages/terms.html">Terms</a>
+    </div>
+    <p class="copy">&copy; <span id="year"></span> 3NDING. ALL RIGHTS RESERVED.</p>
+    <div class="theme-toggle-wrapper">
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle Theme"></button>
+    </div>
+  </footer>
+
+  <!-- Bottom Pills & ToC Modal Code -->
+  <div id="tocModal" class="toc-modal">
+    <div class="toc-modal-content">
+      <div class="toc-header">
+        <h3>Table of Contents</h3>
+        <button id="closeToc" aria-label="Close Modal">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+      <ul id="tocList" class="toc-list"></ul>
+    </div>
+  </div>
+
+  <nav class="bottom-pill-nav">
+    <button id="btnBackToTop" aria-label="Back to Top"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg></button>
+    <div class="pill-divider"></div>
+    <button id="btnShowToc" aria-label="Table of Contents"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg></button>
+    <div class="pill-divider"></div>
+    <button id="btnShare" aria-label="Share Article"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg></button>
+  </nav>
+
+  <aside class="code-block"></aside>
+  <script src="../../scripts/blog.js" defer></script>
+</body>
+</html>
