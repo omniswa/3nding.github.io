@@ -285,6 +285,20 @@ const blogs2026 = [
     published: "May 19, 2026",
     excerpt: "A Nightwing contractor exposed CISA's AWS GovCloud credentials, plaintext passwords, and build secrets on a public GitHub repo for six months. Here's what happened and why it matters.",
     link: "blogs/2026/cisa-contractor-leaked-aws-govcloud-keys-on-github.html"
+  },
+  {
+    title: "Gemini 3.5: Frontier Intelligence With Action",
+    category: "Technology News",
+    published: "May 20, 2026",
+    excerpt: "Gemini 3.5 Flash launched at Google I/O 2026 as Google's strongest agentic model yet—4x faster than rivals, cheaper than Pro, and built to execute, not just answer.",
+    link: "blogs/2026/gemini-3-5-frontier-intelligence-with-action.html"
+  },
+  {
+    title: "Google Antigravity 2.0: What Actually Changed",
+    category: "Technology News",
+    published: "May 20, 2026",
+    excerpt: "Google launched Antigravity 2.0 at IO 2026 with a redesigned desktop app and a new CLI. Here's what's genuinely new, what's still rough, and whether it's worth switching now.",
+    link: "blogs/2026/google-antigravity-2-0-what-actually-changed.html"
   }
 ];
 
