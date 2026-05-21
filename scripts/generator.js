@@ -149,11 +149,11 @@ document.addEventListener("DOMContentLoaded", () => {
   <meta name="description" content="${meta}">
 
   <!-- Canonical URL (Prevents duplicate content issues) -->
-  <link rel="canonical" href="${currentOrigin}/blogs/${year}/${slug}.html">
+  <link rel="canonical" href="${currentOrigin}/blogs/${year}/${slug}">
 
   <!-- Open Graph / Facebook (For rich social sharing) -->
   <meta property="og:type" content="article">
-  <meta property="og:url" content="${currentOrigin}/blogs/${year}/${slug}.html">
+  <meta property="og:url" content="${currentOrigin}/blogs/${year}/${slug}">
   <meta property="og:title" content="${title}">
   <meta property="og:description" content="${meta}">
   <meta property="og:image" content="${currentOrigin}/images/${slug}.webp">
@@ -162,7 +162,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:url" content="${currentOrigin}/blogs/${year}/${slug}.html">
+  <meta name="twitter:url" content="${currentOrigin}/blogs/${year}/${slug}">
   <meta name="twitter:title" content="${title}">
   <meta name="twitter:description" content="${meta}">
   <meta name="twitter:image" content="${currentOrigin}/images/${slug}.webp">
@@ -179,7 +179,7 @@ document.addEventListener("DOMContentLoaded", () => {
       "@type": "BlogPosting",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "${currentOrigin}/blogs/${year}/${slug}.html"
+        "@id": "${currentOrigin}/blogs/${year}/${slug}"
       },
       "headline": "${title}",
       "description": "${meta}",
