@@ -299,6 +299,13 @@ const blogs2026 = [
     published: "May 20, 2026",
     excerpt: "Google launched Antigravity 2.0 at IO 2026 with a redesigned desktop app and a new CLI. Here's what's genuinely new, what's still rough, and whether it's worth switching now.",
     link: "blogs/2026/google-antigravity-2-0-what-actually-changed.html"
+  },
+  {
+    title: "Google Tensor SDK Beta + LiteRT: What It Means",
+    category: "Technology News",
+    published: "May 21, 2026",
+    excerpt: "The Google Tensor ML SDK just entered Beta with LiteRT integration, bringing TPU access, 100+ models, and a unified compile-deploy-run workflow to Pixel 10 devices.",
+    link: "blogs/2026/google-tensor-sdk-beta-litert-what-it-means.html"
   }
 ];
 
