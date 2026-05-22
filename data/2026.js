@@ -313,6 +313,13 @@ const blogs2026 = [
     published: "May 22, 2026",
     excerpt: "A leaked internal doc reveals the Oura Ring 5 announcement is May 28, with pre-orders the same day and deliveries starting June 4. Here's what we know.",
     link: "blogs/2026/oura-ring-5-launches-next-week.html"
+  },
+  {
+    title: "Fitbit Air Gets a New Rival Days Before Launch",
+    category: "Technology News",
+    published: "May 22, 2026",
+    excerpt: "The Fitbit Air launches May 26 at $99, but the Luna Band just went official—subscription-free and voice-led. Here's what the crowded screenless tracker market looks like now.",
+    link: "blogs/2026/fitbit-air-gets-a-new-rival-days-before-launch.html"
   }
 ];
 
