@@ -306,6 +306,13 @@ const blogs2026 = [
     published: "May 21, 2026",
     excerpt: "The Google Tensor ML SDK just entered Beta with LiteRT integration, bringing TPU access, 100+ models, and a unified compile-deploy-run workflow to Pixel 10 devices.",
     link: "blogs/2026/google-tensor-sdk-beta-litert-what-it-means.html"
+  },
+  {
+    title: "Oura Ring 5 Launches Next Week",
+    category: "Technology News",
+    published: "May 22, 2026",
+    excerpt: "A leaked internal doc reveals the Oura Ring 5 announcement is May 28, with pre-orders the same day and deliveries starting June 4. Here's what we know.",
+    link: "blogs/2026/oura-ring-5-launches-next-week.html"
   }
 ];
 
