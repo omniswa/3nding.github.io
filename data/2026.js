@@ -320,6 +320,13 @@ const blogs2026 = [
     published: "May 22, 2026",
     excerpt: "The Fitbit Air launches May 26 at $99, but the Luna Band just went official—subscription-free and voice-led. Here's what the crowded screenless tracker market looks like now.",
     link: "blogs/2026/fitbit-air-gets-a-new-rival-days-before-launch.html"
+  },
+  {
+    title: "iOS 26.5.1 Is Coming Soon",
+    category: "Technology News",
+    published: "May 23, 2026",
+    excerpt: "iOS 26.5.1 is expected to arrive before the end of May 2026. Here's what we know about the update, why it matters, and whether you should wait to install it.",
+    link: "blogs/2026/ios-26-5-1-is-coming-soon.html"
   }
 ];
 

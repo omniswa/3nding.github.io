@@ -156,7 +156,7 @@ document.addEventListener("DOMContentLoaded", () => {
   <meta property="og:url" content="${currentOrigin}/blogs/${year}/${slug}">
   <meta property="og:title" content="${title}">
   <meta property="og:description" content="${meta}">
-  <meta property="og:image" content="${currentOrigin}/images/${slug}.webp">
+  <meta property="og:image" content="https://3nding.top/og-image.webp">
   <meta property="og:site_name" content="3NDING">
   <meta property="article:published_time" content="${isoDate}">
 
@@ -165,7 +165,7 @@ document.addEventListener("DOMContentLoaded", () => {
   <meta name="twitter:url" content="${currentOrigin}/blogs/${year}/${slug}">
   <meta name="twitter:title" content="${title}">
   <meta name="twitter:description" content="${meta}">
-  <meta name="twitter:image" content="${currentOrigin}/images/${slug}.webp">
+  <meta name="twitter:image" content="https://3nding.top/og-image.webp">
 
   <link rel="icon" href="../../apple-touch-icon.png" type="image/png">
   <link rel="preload" href="../../fonts/outfit.woff2" as="font" type="font/woff2" crossorigin>
@@ -183,7 +183,7 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       "headline": "${title}",
       "description": "${meta}",
-      "image": "${currentOrigin}/images/${slug}.webp",
+      "image": "https://3nding.top/og-image.webp",
       "author": {
         "@type": "Organization",
         "name": "3NDING",
