@@ -327,6 +327,13 @@ const blogs2026 = [
     published: "May 23, 2026",
     excerpt: "iOS 26.5.1 is expected to arrive before the end of May 2026. Here's what we know about the update, why it matters, and whether you should wait to install it.",
     link: "blogs/2026/ios-26-5-1-is-coming-soon.html"
+  },
+  {
+    title: "NES and SNES Classics Were a Lifeline, Not Fan Service",
+    category: "Technology News",
+    published: "May 24, 2026",
+    excerpt: "Reggie Fils-Aimé confirmed the NES and SNES Classic Editions were built to sustain Nintendo's business while the Wii U slowly died. Here's what that actually means.",
+    link: "blogs/2026/nes-and-snes-classics-were-a-lifeline-not-fan-service.html"
   }
 ];
 
