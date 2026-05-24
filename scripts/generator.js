@@ -6,11 +6,18 @@ document.addEventListener("DOMContentLoaded", () => {
   const categoryInput = document.getElementById("postCategory");
   const wordCountDisplay = document.getElementById("wordCountDisplay");
   const postContent = document.getElementById("postContent");
+  const affiliateToggle = document.getElementById("affiliateToggle");
+  const affiliateFields = document.getElementById("affiliateFields");
 
   // Set Display Date
   const today = new Date();
   const isoDate = today.toISOString();
   const displayDate = today.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+
+  // --- Affiliate Toggle: Show / Hide Fields ---
+  affiliateToggle.addEventListener("change", () => {
+    affiliateFields.classList.toggle("visible", affiliateToggle.checked);
+  });
 
   // --- Utility: Live JSON Preview ---
   function updateJsonPreview() {
@@ -60,7 +67,6 @@ document.addEventListener("DOMContentLoaded", () => {
     if (node.nodeType === 3) { // Text node
       let text = node.nodeValue;
       // Opening/Closing double quotes
-      // Extended regex boundary handling: space, parenthesis, brackets, dashes (-, en, em), slash, colon, equals, existing quotes
       text = text.replace(/(^|[\s(\[{<>\-\/\u2013\u2014\u2018\u201c:=])"/g, "$1\u201c");
       text = text.replace(/"/g, "\u201d");
       // Opening/Closing single quotes (apostrophes)
@@ -68,7 +74,6 @@ document.addEventListener("DOMContentLoaded", () => {
       text = text.replace(/'/g, "\u2019");
       node.nodeValue = text;
     } else if (node.nodeType === 1) { // Element node
-      // Skip applying smart quotes inside preformatted blocks
       if (!['CODE', 'PRE', 'SCRIPT', 'STYLE'].includes(node.nodeName)) {
         for (let child of node.childNodes) {
           applySmartQuotes(child);
@@ -99,7 +104,6 @@ document.addEventListener("DOMContentLoaded", () => {
       if (a.href.startsWith("http") && !a.href.startsWith(currentOrigin)) {
         a.setAttribute("target", "_blank");
         a.setAttribute("rel", "nofollow noopener");
-        // Enclose the text content in brackets
         a.textContent = `[${a.textContent}]`;
       }
     });
@@ -110,8 +114,212 @@ document.addEventListener("DOMContentLoaded", () => {
     return tempDiv.innerHTML;
   }
 
+  // ─────────────────────────────────────────
+  // Build the affiliate modal code to inject
+  // into the generated HTML file
+  // ─────────────────────────────────────────
+  function buildAffiliateCode(slug) {
+    if (!affiliateToggle.checked) return { css: '', html: '', script: '' };
+
+    const affUrl      = document.getElementById("affiliateUrl").value.trim();
+    const affHeadline = document.getElementById("affiliateHeadline").value.trim() || "Our Best Pick";
+    const affDesc     = document.getElementById("affiliateDesc").value.trim();
+    const affBtn      = document.getElementById("affiliateBtnText").value.trim() || "Check It Out";
+    const affDelay    = parseInt(document.getElementById("affiliateDelay").value, 10) || 5;
+
+    // Silently skip if no URL was provided
+    if (!affUrl) return { css: '', html: '', script: '' };
+
+    const css = `
+  <!-- Affiliate Modal Styles -->
+  <style>
+    .aff-modal {
+      position: fixed;
+      bottom: -360px;
+      right: 24px;
+      width: 292px;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-top: 3px solid var(--accent);
+      border-radius: 14px;
+      padding: 0;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3), 0 4px 16px rgba(0, 0, 0, 0.15);
+      z-index: 150;
+      transition: bottom 0.65s cubic-bezier(0.34, 1.56, 0.64, 1);
+      overflow: hidden;
+    }
+    .aff-modal.aff-visible {
+      bottom: 90px;
+    }
+    .aff-modal-body {
+      padding: 20px 20px 22px;
+      position: relative;
+    }
+    .aff-close {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      width: 26px;
+      height: 26px;
+      background: var(--bg-card-hover);
+      border: 1px solid var(--border);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      color: var(--text-muted);
+      padding: 0;
+      line-height: 1;
+      transition: color 0.2s, background 0.2s;
+      flex-shrink: 0;
+    }
+    .aff-close:hover {
+      color: var(--text-main);
+      background: var(--border);
+    }
+    .aff-badge {
+      display: inline-block;
+      font-size: 0.68rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--accent);
+      background: var(--accent-dim);
+      padding: 3px 10px;
+      border-radius: 20px;
+      margin-bottom: 14px;
+    }
+    .aff-title {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--text-main);
+      margin: 0 0 8px;
+      line-height: 1.35;
+      padding-right: 24px;
+    }
+    .aff-desc {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin: 0 0 18px;
+      line-height: 1.55;
+    }
+    .aff-cta {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      background: var(--accent);
+      color: #000 !important;
+      text-align: center;
+      padding: 11px 16px;
+      border-radius: 8px;
+      text-decoration: none !important;
+      font-weight: 700;
+      font-size: 0.9rem;
+      letter-spacing: 0.01em;
+      transition: opacity 0.2s, transform 0.2s;
+      border-bottom: none !important;
+    }
+    .aff-cta:hover {
+      opacity: 0.88;
+      transform: translateY(-1px);
+    }
+    .aff-cta svg {
+      transition: transform 0.2s;
+    }
+    .aff-cta:hover svg {
+      transform: translateX(3px);
+    }
+    @media (max-width: 640px) {
+      .aff-modal {
+        right: 12px;
+        left: 12px;
+        width: auto;
+        bottom: -360px;
+      }
+      .aff-modal.aff-visible {
+        bottom: 96px;
+      }
+    }
+  </style>`;
+
+    const descHtml = affDesc
+      ? `<p class="aff-desc">${affDesc}</p>`
+      : '';
+
+    const html = `
+  <!-- Affiliate Modal -->
+  <div id="affModal" class="aff-modal" role="complementary" aria-label="Sponsored recommendation">
+    <div class="aff-modal-body">
+      <button class="aff-close" id="affClose" aria-label="Dismiss recommendation">
+        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+      <span class="aff-badge">Sponsored</span>
+      <h3 class="aff-title">${affHeadline}</h3>
+      ${descHtml}
+      <a href="${affUrl}" class="aff-cta" target="_blank" rel="noopener sponsored">
+        ${affBtn}
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+      </a>
+    </div>
+  </div>`;
+
+    // Use a session-scoped dismissal key so it doesn't re-appear on same visit
+    const storageKey = `aff_dismissed_${slug}`;
+    const script = `
+  <script>
+    (function () {
+      var modal   = document.getElementById('affModal');
+      var closeBtn = document.getElementById('affClose');
+      if (!modal) return;
+
+      // Already dismissed this session — stay hidden
+      if (sessionStorage.getItem('${storageKey}')) return;
+
+      var timer = setTimeout(function () {
+        modal.classList.add('aff-visible');
+      }, ${affDelay * 1000});
+
+      closeBtn.addEventListener('click', function () {
+        modal.classList.remove('aff-visible');
+        sessionStorage.setItem('${storageKey}', '1');
+        clearTimeout(timer);
+      });
+
+      // Also dismiss if user clicks the CTA (they're going to the link)
+      var cta = modal.querySelector('.aff-cta');
+      if (cta) {
+        cta.addEventListener('click', function () {
+          sessionStorage.setItem('${storageKey}', '1');
+        });
+      }
+    })();
+  <\/script>`;
+
+    return { css, html, script };
+  }
+
+  // ─────────────────────────────────────────
+  // Form Submit → Generate & Download HTML
+  // ─────────────────────────────────────────
   form.addEventListener("submit", (e) => {
     e.preventDefault();
+
+    // Validate affiliate URL if the toggle is on
+    if (affiliateToggle.checked) {
+      const affUrl = document.getElementById("affiliateUrl").value.trim();
+      if (!affUrl) {
+        const urlInput = document.getElementById("affiliateUrl");
+        urlInput.focus();
+        urlInput.style.borderColor = "var(--danger)";
+        urlInput.placeholder = "A URL is required when the affiliate link is enabled";
+        urlInput.addEventListener("input", () => {
+          urlInput.style.borderColor = "";
+        }, { once: true });
+        return;
+      }
+    }
 
     const title = document.getElementById("postTitle").value.trim() || "Article Title";
     const year = document.getElementById("postYear").value;
@@ -121,7 +329,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Generate Slug
     const slug = title.toLowerCase()
-      .replace(/['\u2018\u2019]/g, '') // Removes standard and curly apostrophes
+      .replace(/['\u2018\u2019]/g, '')
       .replace(/[^a-z0-9]+/g, '-') 
       .replace(/(^-|-$)/g, '');
     const currentOrigin = window.location.origin !== "null" ? window.location.origin : "https://3nding.top";
@@ -129,14 +337,15 @@ document.addEventListener("DOMContentLoaded", () => {
     // Process Content
     const processedContentHtml = processHtmlContent(markdown);
 
-    // Calculate Word Count
+    // Calculate Word Count / Reading Time
     const wordCount = markdown ? markdown.split(/\s+/).length : 0;
     wordCountDisplay.textContent = `${wordCount} Words`;
-
-    // Calculate Reading Time (for the JSON)
     const readingTime = Math.max(1, Math.ceil(wordCount / 200));
 
-    // Generate Final HTML Structure based on Blog.html template
+    // Build affiliate code (empty strings if toggle is off / URL missing)
+    const aff = buildAffiliateCode(slug);
+
+    // Generate Final HTML
     let finalHtml = `<!DOCTYPE html>
 <html lang="en">
 
@@ -208,7 +417,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (savedTheme === 'light' || (!savedTheme && prefersLight)) {
       document.documentElement.classList.add('light-theme');
     }
-  <\/script>
+  <\/script>${aff.css}
 </head>
 
 <body>
@@ -290,7 +499,7 @@ document.addEventListener("DOMContentLoaded", () => {
   </nav>
 
   <aside class="code-block"></aside>
-  <script src="../../scripts/blog.js" defer><\/script>
+  <script src="../../scripts/blog.js" defer><\/script>${aff.html}${aff.script}
 </body>
 </html>`;
 
@@ -317,6 +526,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     form.reset();
+    // Reset affiliate fields visibility
+    affiliateFields.classList.remove("visible");
     updateJsonPreview();
   });
 

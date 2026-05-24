@@ -60,6 +60,55 @@
         <textarea id="postContent" placeholder="Write your content in Markdown here..." required></textarea>
       </div>
 
+      <!-- ─── Affiliate Link (Optional) ─── -->
+      <div class="form-group affiliate-form-group">
+        <div class="affiliate-toggle-row">
+          <div>
+            <span class="affiliate-label">Affiliate / Sponsored Link</span>
+            <span class="affiliate-optional-tag">Optional</span>
+          </div>
+          <label class="toggle-switch" aria-label="Enable affiliate link">
+            <input type="checkbox" id="affiliateToggle">
+            <span class="toggle-slider"></span>
+          </label>
+        </div>
+
+        <div id="affiliateFields" class="affiliate-fields">
+          <div class="affiliate-inner-grid">
+            <div class="form-group aff-inner-group">
+              <label for="affiliateUrl">Link URL <span class="req-star">*</span></label>
+              <input type="url" id="affiliateUrl" placeholder="https://example.com/your-affiliate-link">
+            </div>
+
+            <div class="form-group aff-inner-group">
+              <label for="affiliateHeadline">Modal Headline</label>
+              <input type="text" id="affiliateHeadline" placeholder="e.g., Our Top Pick for Developers">
+            </div>
+
+            <div class="form-group aff-inner-group" style="grid-column: 1 / -1;">
+              <label for="affiliateDesc">Short Description</label>
+              <textarea id="affiliateDesc" placeholder="A brief, compelling reason to click the link..."></textarea>
+            </div>
+
+            <div class="form-group aff-inner-group">
+              <label for="affiliateBtnText">Button Text</label>
+              <input type="text" id="affiliateBtnText" placeholder="Get the Deal">
+            </div>
+
+            <div class="form-group aff-inner-group">
+              <label for="affiliateDelay">Appears After</label>
+              <select id="affiliateDelay">
+                <option value="3">3 seconds</option>
+                <option value="5" selected>5 seconds</option>
+                <option value="8">8 seconds</option>
+                <option value="12">12 seconds</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ─── End Affiliate Link ─── -->
+
       <div class="btn-group">
         <button type="button" id="btnClear" class="btn-danger">Clear Form</button>
         <button type="submit" class="btn-primary">Download HTML</button>

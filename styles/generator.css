@@ -159,13 +159,11 @@ button {
 }
 
 /* Output JSON Preview Area */
-/* Update this block in your CSS */
 .output-section {
   margin-top: 56px;
   border-top: 1px solid var(--border);
   padding-top: 40px;
   display: block;
-  /* Changed from none to block */
 }
 
 .output-section.active {
@@ -192,4 +190,142 @@ code {
   font-family: 'Courier New', Courier, monospace;
   color: var(--accent);
   font-size: 0.95em;
+}
+
+/* ─────────────────────────────────────────
+   Toggle Switch
+───────────────────────────────────────── */
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 46px;
+  height: 26px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+/* Hide the default checkbox — but keep it 0×0 so it doesn't stretch layouts */
+.toggle-switch input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  pointer-events: none;
+}
+
+.toggle-slider {
+  position: absolute;
+  inset: 0;
+  background: var(--border);
+  border-radius: 26px;
+  transition: background var(--transition);
+}
+
+.toggle-slider::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 3px;
+  top: 3px;
+  background: #fff;
+  border-radius: 50%;
+  transition: transform var(--transition);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.toggle-switch input:checked + .toggle-slider {
+  background: var(--accent);
+}
+
+.toggle-switch input:checked + .toggle-slider::before {
+  transform: translateX(20px);
+}
+
+/* ─────────────────────────────────────────
+   Affiliate Link Section
+───────────────────────────────────────── */
+.affiliate-form-group {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  background: var(--bg-card);
+}
+
+.affiliate-toggle-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.affiliate-label {
+  display: block;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--text-main);
+  margin-bottom: 4px;
+}
+
+.affiliate-optional-tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  background: var(--input-bg);
+  border: 1px solid var(--border);
+  padding: 2px 9px;
+  border-radius: 20px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.affiliate-fields {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.35s ease, margin-top 0.35s ease;
+  margin-top: 0;
+}
+
+.affiliate-fields.visible {
+  grid-template-rows: 1fr;
+  margin-top: 20px;
+}
+
+/* Inner wrapper needed for grid-row animation trick */
+.affiliate-fields > * {
+  overflow: hidden;
+}
+
+.affiliate-inner-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+/* Make certain affiliate inner inputs use a slightly smaller textarea */
+.aff-inner-group {
+  margin-bottom: 0;
+}
+
+.aff-inner-group textarea {
+  min-height: 80px;
+}
+
+.req-star {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+@media (max-width: 560px) {
+  .affiliate-inner-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .affiliate-inner-grid .aff-inner-group[style*="grid-column"] {
+    grid-column: 1 / -1;
+  }
 }
