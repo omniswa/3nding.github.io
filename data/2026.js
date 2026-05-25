@@ -334,6 +334,13 @@ const blogs2026 = [
     published: "May 24, 2026",
     excerpt: "Reggie Fils-Aimé confirmed the NES and SNES Classic Editions were built to sustain Nintendo's business while the Wii U slowly died. Here's what that actually means.",
     link: "blogs/2026/nes-and-snes-classics-were-a-lifeline-not-fan-service.html"
+  },
+  {
+    title: "Xiaomi 17T and 17T Pro: Leaked Prices",
+    category: "Technology News",
+    published: "May 25, 2026",
+    excerpt: "Xiaomi 17T and 17T Pro prices have leaked across multiple regions ahead of the May 28 global launch. Here's what to expect from each model and whether the pricing makes sense.",
+    link: "blogs/2026/xiaomi-17t-and-17t-pro-leaked-prices.html"
   }
 ];
 
