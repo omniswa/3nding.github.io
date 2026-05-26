@@ -341,6 +341,13 @@ const blogs2026 = [
     published: "May 25, 2026",
     excerpt: "Xiaomi 17T and 17T Pro prices have leaked across multiple regions ahead of the May 28 global launch. Here's what to expect from each model and whether the pricing makes sense.",
     link: "blogs/2026/xiaomi-17t-and-17t-pro-leaked-prices.html"
+  },
+  {
+    title: "Cybersecurity Courses Are Reshaping Careers",
+    category: "Technology News",
+    published: "May 26, 2026",
+    excerpt: "Why professionals across every industry are enrolling in cybersecurity courses in 2026—and what that shift actually means for your career trajectory.",
+    link: "blogs/2026/cybersecurity-courses-are-reshaping-careers.html"
   }
 ];
 
