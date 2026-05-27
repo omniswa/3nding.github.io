@@ -348,6 +348,13 @@ const blogs2026 = [
     published: "May 26, 2026",
     excerpt: "Why professionals across every industry are enrolling in cybersecurity courses in 2026—and what that shift actually means for your career trajectory.",
     link: "blogs/2026/cybersecurity-courses-are-reshaping-careers.html"
+  },
+  {
+    title: "Nvidia CEO: You're Losing Your Job to Bad Managers, Not AI",
+    category: "Technology News",
+    published: "May 27, 2026",
+    excerpt: "Jensen Huang challenges the AI layoff narrative. What Nvidia's CEO actually said about job losses in 2026—and why the timeline doesn't add up.",
+    link: "blogs/2026/nvidia-ceo-youre-losing-your-job-to-bad-managers-not-ai.html"
   }
 ];
 
