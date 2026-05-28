@@ -362,6 +362,13 @@ const blogs2026 = [
     published: "May 28, 2026",
     excerpt: "FBI alerts users to Kali365, a phishing-as-a-service platform bypassing MFA without stealing passwords. Here's how to protect your Outlook, Teams, and OneDrive accounts.",
     link: "blogs/2026/fbi-warns-of-kali365-threat-targeting-microsoft-365-users.html"
+  },
+  {
+    title: "Why Salesforce Beat Earnings Yet Stock Fell",
+    category: "Technology News",
+    published: "May 28, 2026",
+    excerpt: "Salesforce crushed earnings expectations but weak guidance reveals a bigger problem: investors no longer believe in the company's traditional growth story. Here's why.",
+    link: "blogs/2026/why-salesforce-beat-earnings-yet-stock-fell.html"
   }
 ];
 
