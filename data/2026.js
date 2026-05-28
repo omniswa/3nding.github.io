@@ -355,6 +355,13 @@ const blogs2026 = [
     published: "May 27, 2026",
     excerpt: "Jensen Huang challenges the AI layoff narrative. What Nvidia's CEO actually said about job losses in 2026—and why the timeline doesn't add up.",
     link: "blogs/2026/nvidia-ceo-youre-losing-your-job-to-bad-managers-not-ai.html"
+  },
+  {
+    title: "FBI Warns of Kali365 Threat Targeting Microsoft 365 Users",
+    category: "Technology News",
+    published: "May 28, 2026",
+    excerpt: "FBI alerts users to Kali365, a phishing-as-a-service platform bypassing MFA without stealing passwords. Here's how to protect your Outlook, Teams, and OneDrive accounts.",
+    link: "blogs/2026/fbi-warns-of-kali365-threat-targeting-microsoft-365-users.html"
   }
 ];
 
