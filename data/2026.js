@@ -369,6 +369,13 @@ const blogs2026 = [
     published: "May 28, 2026",
     excerpt: "Salesforce crushed earnings expectations but weak guidance reveals a bigger problem: investors no longer believe in the company's traditional growth story. Here's why.",
     link: "blogs/2026/why-salesforce-beat-earnings-yet-stock-fell.html"
+  },
+  {
+    title: "Claude Opus 4.8: Smarter and More Honest",
+    category: "Technology News",
+    published: "May 29, 2026",
+    excerpt: "Opus 4.8 brings sharper judgment, better honesty, and parallel agentic coding. Same price as Opus 4.7. What changed and why it matters for teams.",
+    link: "blogs/2026/claude-opus-4-8-smarter-and-more-honest.html"
   }
 ];
 
