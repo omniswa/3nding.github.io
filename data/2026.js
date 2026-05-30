@@ -376,6 +376,20 @@ const blogs2026 = [
     published: "May 29, 2026",
     excerpt: "Opus 4.8 brings sharper judgment, better honesty, and parallel agentic coding. Same price as Opus 4.7. What changed and why it matters for teams.",
     link: "blogs/2026/claude-opus-4-8-smarter-and-more-honest.html"
+  },
+  {
+    title: "Redmi Headphones Neo: Specs, Price, and Global Availability",
+    category: "Technology News",
+    published: "May 30, 2026",
+    excerpt: "Xiaomi's Redmi Headphones Neo just launched globally with 42dB ANC, 72-hour battery, and USB-C Hi-Res Audio. Here's what the specs actually mean — and what they don't.",
+    link: "blogs/2026/redmi-headphones-neo-specs-price-and-global-availability.html"
+  },
+  {
+    title: "TP-Link Archer 8: Wi-Fi 8 Router Review",
+    category: "Technology News",
+    published: "May 30, 2026",
+    excerpt: "TP-Link's Archer 8 launches October 2026 on an unfinished standard. Here's what Wi-Fi 8 actually changes, what it doesn't, and whether you should care.",
+    link: "blogs/2026/tp-link-archer-8-wi-fi-8-router-review.html"
   }
 ];
 
