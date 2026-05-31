@@ -390,6 +390,13 @@ const blogs2026 = [
     published: "May 30, 2026",
     excerpt: "TP-Link's Archer 8 launches October 2026 on an unfinished standard. Here's what Wi-Fi 8 actually changes, what it doesn't, and whether you should care.",
     link: "blogs/2026/tp-link-archer-8-wi-fi-8-router-review.html"
+  },
+  {
+    title: "Acer Swift Air 14 vs MacBook Neo: $699 Reality Check",
+    category: "Consumer Technology",
+    published: "May 31, 2026",
+    excerpt: "Acer's Swift Air 14 launches at $699 to challenge Apple's $599 MacBook Neo. Here's what the specs obscure — and which one actually wins for your use case.",
+    link: "blogs/2026/acer-swift-air-14-vs-macbook-neo-699-reality-check.html"
   }
 ];
 
