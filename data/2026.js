@@ -397,6 +397,13 @@ const blogs2026 = [
     published: "May 31, 2026",
     excerpt: "Acer's Swift Air 14 launches at $699 to challenge Apple's $599 MacBook Neo. Here's what the specs obscure — and which one actually wins for your use case.",
     link: "blogs/2026/acer-swift-air-14-vs-macbook-neo-699-reality-check.html"
+  },
+  {
+    title: "Acer Veriton RA110: Local AI Workstation Review",
+    category: "Consumer Technology",
+    published: "June 1, 2026",
+    excerpt: "Acer's Veriton RA110 packs AMD Ryzen AI Max+ 395 into a compact workstation for local LLM inference. Here's what it actually means for developers and AI pros.",
+    link: "blogs/2026/acer-veriton-ra110-local-ai-workstation-review.html"
   }
 ];
 
