@@ -404,6 +404,13 @@ const blogs2026 = [
     published: "June 1, 2026",
     excerpt: "Acer's Veriton RA110 packs AMD Ryzen AI Max+ 395 into a compact workstation for local LLM inference. Here's what it actually means for developers and AI pros.",
     link: "blogs/2026/acer-veriton-ra110-local-ai-workstation-review.html"
+  },
+  {
+    title: "Nvidia's AI Agent PCs Are Here. This Changes Everything",
+    category: "Technology News",
+    published: "June 2, 2026",
+    excerpt: "Nvidia's RTX Spark superchip, unveiled at Computex 2026, is the first PC platform built from scratch for AI agents. Here's what it actually means and who it's for.",
+    link: "blogs/2026/nvidias-ai-agent-pcs-are-here-this-changes-everything.html"
   }
 ];
 
