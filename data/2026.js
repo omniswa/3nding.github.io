@@ -411,6 +411,13 @@ const blogs2026 = [
     published: "June 2, 2026",
     excerpt: "Nvidia's RTX Spark superchip, unveiled at Computex 2026, is the first PC platform built from scratch for AI agents. Here's what it actually means and who it's for.",
     link: "blogs/2026/nvidias-ai-agent-pcs-are-here-this-changes-everything.html"
+  },
+  {
+    title: "Rayman Legends Retold: October 1 Launch Guide",
+    category: "Technology News",
+    published: "June 3, 2026",
+    excerpt: "Rayman Legends Retold launches October 1, 2026 on PS5, Xbox Series X|S, Switch 2, and PC for $39.99. Here's everything confirmed: platforms, editions, and new features.",
+    link: "blogs/2026/rayman-legends-retold-october-1-launch-guide.html"
   }
 ];
 
