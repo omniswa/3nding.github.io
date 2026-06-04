@@ -418,6 +418,13 @@ const blogs2026 = [
     published: "June 3, 2026",
     excerpt: "Rayman Legends Retold launches October 1, 2026 on PS5, Xbox Series X|S, Switch 2, and PC for $39.99. Here's everything confirmed: platforms, editions, and new features.",
     link: "blogs/2026/rayman-legends-retold-october-1-launch-guide.html"
+  },
+  {
+    title: "Google's AI Virtual Try-On: What It Does",
+    category: "Technology News",
+    published: "June 4, 2026",
+    excerpt: "Google's AI virtual try-on lets you see billions of clothes on your own photo before buying. Here's how the tech works, what it can't do, and who it matters to.",
+    link: "blogs/2026/googles-ai-virtual-try-on-what-it-does.html"
   }
 ];
 
