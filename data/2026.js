@@ -425,6 +425,13 @@ const blogs2026 = [
     published: "June 4, 2026",
     excerpt: "Google's AI virtual try-on lets you see billions of clothes on your own photo before buying. Here's how the tech works, what it can't do, and who it matters to.",
     link: "blogs/2026/googles-ai-virtual-try-on-what-it-does.html"
+  },
+  {
+    title: "ID@Xbox Indie Selects Demo Fest: June 2026",
+    category: "Technology News",
+    published: "June 5, 2026",
+    excerpt: "The ID@Xbox Indie Selects Demo Fest is live June 4–30, 2026. Over 30 free indie game demos on Xbox Series X|S, Xbox One, and PC. Here's everything you need to know.",
+    link: "blogs/2026/id-xbox-indie-selects-demo-fest-june-2026.html"
   }
 ];
 
