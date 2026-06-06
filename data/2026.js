@@ -432,6 +432,13 @@ const blogs2026 = [
     published: "June 5, 2026",
     excerpt: "The ID@Xbox Indie Selects Demo Fest is live June 4–30, 2026. Over 30 free indie game demos on Xbox Series X|S, Xbox One, and PC. Here's everything you need to know.",
     link: "blogs/2026/id-xbox-indie-selects-demo-fest-june-2026.html"
+  },
+  {
+    title: "Vibe Coding: A Beginner's Honest Guide",
+    category: "Guides & Tutorials",
+    published: "June 6, 2026",
+    excerpt: "Vibe coding means letting AI write your code while you direct in plain English. Here's what actually works, what breaks, and how to start today.",
+    link: "blogs/2026/vibe-coding-a-beginners-honest-guide.html"
   }
 ];
 
