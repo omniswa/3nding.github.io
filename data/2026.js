@@ -453,6 +453,13 @@ const blogs2026 = [
     published: "June 8, 2026",
     excerpt: "The Infinix GT 50 Pro packs liquid cooling, dual-pressure triggers, and native 144FPS into a sub-$400 body. Here's whether it earns its gaming credentials.",
     link: "blogs/2026/infinix-gt-50-pro-the-esports-phone-that-actually-thinks.html"
+  },
+  {
+    title: "Xbox Series X25: Everything You Need to Know",
+    category: "Technology News",
+    published: "June 8, 2026",
+    excerpt: "The Xbox Series X25 Limited Edition launches November 2026. Translucent OG Green design, same Series X hardware, no price confirmed. Here's what's real and what matters.",
+    link: "blogs/2026/xbox-series-x25-everything-you-need-to-know.html"
   }
 ];
 
