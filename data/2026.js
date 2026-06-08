@@ -446,6 +446,13 @@ const blogs2026 = [
     published: "June 7, 2026",
     excerpt: "A hands-on comparison of the best vibe coding tools in 2026, including Cursor, Claude Code, Windsurf, Replit, Lovable, and Bolt.",
     link: "blogs/2026/best-vibe-coding-tools-in-2026-compared.html"
+  },
+  {
+    title: "Infinix GT 50 Pro: The Esports Phone That Actually Thinks",
+    category: "Consumer Technology",
+    published: "June 8, 2026",
+    excerpt: "The Infinix GT 50 Pro packs liquid cooling, dual-pressure triggers, and native 144FPS into a sub-$400 body. Here's whether it earns its gaming credentials.",
+    link: "blogs/2026/infinix-gt-50-pro-the-esports-phone-that-actually-thinks.html"
   }
 ];
 
