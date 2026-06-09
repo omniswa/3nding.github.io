@@ -460,6 +460,13 @@ const blogs2026 = [
     published: "June 8, 2026",
     excerpt: "The Xbox Series X25 Limited Edition launches November 2026. Translucent OG Green design, same Series X hardware, no price confirmed. Here's what's real and what matters.",
     link: "blogs/2026/xbox-series-x25-everything-you-need-to-know.html"
+  },
+  {
+    title: "Apple's New Siri AI: Worth the Two-Year Wait?",
+    category: "Technology News",
+    published: "June 9, 2026",
+    excerpt: "Apple unveiled Siri AI at WWDC 2026—a rebuilt, conversational assistant arriving as a standalone app in September 2026. Here's what actually changed, and what still hasn't.",
+    link: "blogs/2026/apples-new-siri-ai-worth-the-two-year-wait.html"
   }
 ];
 
