@@ -467,6 +467,13 @@ const blogs2026 = [
     published: "June 9, 2026",
     excerpt: "Apple unveiled Siri AI at WWDC 2026—a rebuilt, conversational assistant arriving as a standalone app in September 2026. Here's what actually changed, and what still hasn't.",
     link: "blogs/2026/apples-new-siri-ai-worth-the-two-year-wait.html"
+  },
+  {
+    title: "Claude Fable 5 and Mythos 5: Everything You Need to Know",
+    category: "Technology News",
+    published: "June 10, 2026",
+    excerpt: "Claude Fable 5 launches June 9, 2026 — Anthropic's first public Mythos-class model. Pricing, access windows, API details, benchmarks, and how it compares to Mythos 5.",
+    link: "blogs/2026/claude-fable-5-and-mythos-5-everything-you-need-to-know.html"
   }
 ];
 
