@@ -474,6 +474,20 @@ const blogs2026 = [
     published: "June 10, 2026",
     excerpt: "Claude Fable 5 launches June 9, 2026 — Anthropic's first public Mythos-class model. Pricing, access windows, API details, benchmarks, and how it compares to Mythos 5.",
     link: "blogs/2026/claude-fable-5-and-mythos-5-everything-you-need-to-know.html"
+  },
+  {
+    title: "Slow Computer? Your Browser Is the Problem",
+    category: "Guides & Tutorials",
+    published: "June 10, 2026",
+    excerpt: "Chrome is likely the reason your computer feels slow. Here's exactly why it happens and the specific fixes that actually work.",
+    link: "blogs/2026/slow-computer-your-browser-is-the-problem.html"
+  },
+  {
+    title: "Insta360 Luna Ultra: What Creators Need to Know",
+    category: "Technology News",
+    published: "June 11, 2026",
+    excerpt: "Insta360 Luna Ultra launches June 10, 2026 at $769.99. Here's what the Leica co-engineered gimbal camera actually does—and who it's really for.",
+    link: "blogs/2026/insta360-luna-ultra-what-creators-need-to-know.html"
   }
 ];
 
