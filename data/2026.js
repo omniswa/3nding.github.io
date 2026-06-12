@@ -488,6 +488,13 @@ const blogs2026 = [
     published: "June 11, 2026",
     excerpt: "Insta360 Luna Ultra launches June 10, 2026 at $769.99. Here's what the Leica co-engineered gimbal camera actually does—and who it's really for.",
     link: "blogs/2026/insta360-luna-ultra-what-creators-need-to-know.html"
+  },
+  {
+    title: "Cash App Mobile: $40 Unlimited 5G Explained",
+    category: "Technology News",
+    published: "June 12, 2026",
+    excerpt: "Cash App launched a $40/month unlimited 5G plan on AT&T's network on June 11, 2026. No contracts, no credit checks. Here's what you actually get.",
+    link: "blogs/2026/cash-app-mobile-40-unlimited-5g-explained.html"
   }
 ];
 
