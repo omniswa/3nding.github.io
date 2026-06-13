@@ -502,6 +502,13 @@ const blogs2026 = [
     published: "June 13, 2026",
     excerpt: "iOS 27 was announced June 8, 2026. Here's what's actually new—Siri AI, Liquid Glass fixes, parental controls, performance gains, and what your device won't get.",
     link: "blogs/2026/ios-27-every-real-feature-that-matters.html"
+  },
+  {
+    title: "Automated Social Media Accounts in 2026",
+    category: "Technology News",
+    published: "June 13, 2026",
+    excerpt: "Automation won't grow your account. It will manage it. Here's the real difference — and exactly how to use it without getting banned in 2026.",
+    link: "blogs/2026/automated-social-media-accounts-in-2026.html"
   }
 ];
 
