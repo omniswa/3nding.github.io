@@ -495,6 +495,13 @@ const blogs2026 = [
     published: "June 12, 2026",
     excerpt: "Cash App launched a $40/month unlimited 5G plan on AT&T's network on June 11, 2026. No contracts, no credit checks. Here's what you actually get.",
     link: "blogs/2026/cash-app-mobile-40-unlimited-5g-explained.html"
+  },
+  {
+    title: "iOS 27: Every Real Feature That Matters",
+    category: "Technology News",
+    published: "June 13, 2026",
+    excerpt: "iOS 27 was announced June 8, 2026. Here's what's actually new—Siri AI, Liquid Glass fixes, parental controls, performance gains, and what your device won't get.",
+    link: "blogs/2026/ios-27-every-real-feature-that-matters.html"
   }
 ];
 
