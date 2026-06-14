@@ -509,6 +509,13 @@ const blogs2026 = [
     published: "June 13, 2026",
     excerpt: "Automation won't grow your account. It will manage it. Here's the real difference — and exactly how to use it without getting banned in 2026.",
     link: "blogs/2026/automated-social-media-accounts-in-2026.html"
+  },
+  {
+    title: "Web Dev Tools You're Missing in 2026",
+    category: "Guides & Tutorials",
+    published: "June 14, 2026",
+    excerpt: "The web dev tool landscape shifted fast. Here are the tools—Bun, Astro 6, Biome, TanStack—that matter right now, and exactly why they work.",
+    link: "blogs/2026/web-dev-tools-youre-missing-in-2026.html"
   }
 ];
 
