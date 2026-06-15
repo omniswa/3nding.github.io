@@ -516,6 +516,20 @@ const blogs2026 = [
     published: "June 14, 2026",
     excerpt: "The web dev tool landscape shifted fast. Here are the tools—Bun, Astro 6, Biome, TanStack—that matter right now, and exactly why they work.",
     link: "blogs/2026/web-dev-tools-youre-missing-in-2026.html"
+  },
+  {
+    title: "3D-Printed Gun Laws in 2026: What's Legal Now",
+    category: "Technology News",
+    published: "June 15, 2026",
+    excerpt: "3D-printed guns are federally legal for personal use—but 2026 has changed everything at the state level. Here's exactly where the law stands.",
+    link: "blogs/2026/3d-printed-gun-laws-in-2026-whats-legal-now.html"
+  },
+  {
+    title: "Microsoft Project Solara: The Agent-First Platform",
+    category: "Technology News",
+    published: "June 15, 2026",
+    excerpt: "Microsoft's Project Solara ditches Windows and apps entirely. Here's what it is, how it works, and why it could reshape enterprise computing.",
+    link: "blogs/2026/microsoft-project-solara-the-agent-first-platform.html"
   }
 ];
 
