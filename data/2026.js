@@ -530,6 +530,13 @@ const blogs2026 = [
     published: "June 15, 2026",
     excerpt: "Microsoft's Project Solara ditches Windows and apps entirely. Here's what it is, how it works, and why it could reshape enterprise computing.",
     link: "blogs/2026/microsoft-project-solara-the-agent-first-platform.html"
+  },
+  {
+    title: "ASUS ROG Strix G and SCAR 18 (2026): Full Breakdown",
+    category: "Consumer Technology",
+    published: "June 16, 2026",
+    excerpt: "Everything you need to know about the 2026 ROG Strix G16, G18, and SCAR 18 — specs, displays, cooling, and who should buy which one.",
+    link: "blogs/2026/asus-rog-strix-g-and-scar-18-2026-full-breakdown.html"
   }
 ];
 
