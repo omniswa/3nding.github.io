@@ -537,6 +537,13 @@ const blogs2026 = [
     published: "June 16, 2026",
     excerpt: "Everything you need to know about the 2026 ROG Strix G16, G18, and SCAR 18 — specs, displays, cooling, and who should buy which one.",
     link: "blogs/2026/asus-rog-strix-g-and-scar-18-2026-full-breakdown.html"
+  },
+  {
+    title: "Nintendo's 2026 Data Breach: What Actually Happened",
+    category: "Technology News",
+    published: "June 17, 2026",
+    excerpt: "Nintendo confirmed a June 2026 breach via third-party HR tool TinyPulse. No customer data was taken. Here's what we know and what it means for Nintendo employees.",
+    link: "blogs/2026/nintendos-2026-data-breach-what-actually-happened.html"
   }
 ];
 
