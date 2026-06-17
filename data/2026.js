@@ -544,6 +544,13 @@ const blogs2026 = [
     published: "June 17, 2026",
     excerpt: "Nintendo confirmed a June 2026 breach via third-party HR tool TinyPulse. No customer data was taken. Here's what we know and what it means for Nintendo employees.",
     link: "blogs/2026/nintendos-2026-data-breach-what-actually-happened.html"
+  },
+  {
+    title: "Apple Watch Ultra 4: Everything Known So Far",
+    category: "Technology News",
+    published: "June 17, 2026",
+    excerpt: "Apple Watch Ultra 4 arrives September 2026 with a thinner case, possible Touch ID, doubled health sensors, and a new S11 chip. Here's what the leaks actually mean.",
+    link: "blogs/2026/apple-watch-ultra-4-everything-known-so-far.html"
   }
 ];
 
