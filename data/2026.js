@@ -99,14 +99,14 @@ const blogs2026 = [
   },
   {
     title: "How AI Changed the Economics of Writing Clean Code",
-    category: "Technology News",
+    category: "Guides & Tutorials",
     published: "May 4, 2026",
     excerpt: "AI didn't just speed up coding—it restructured who pays the cost of clean code, when, and why. Here's what that actually means for developers.",
     link: "blogs/2026/how-ai-changed-the-economics-of-writing-clean-code.html"
   },
   {
     title: "Instagram Plus: What It Is, What You Get, and Who It's Actually For",
-    category: "Technology News",
+    category: "Consumer Technology",
     published: "May 5, 2026",
     excerpt: "Instagram Plus is Meta's new paid subscription for everyday users—not creators. Here's every confirmed feature, current pricing, and what it actually changes.",
     link: "blogs/2026/instagram-plus-what-it-is-what-you-get-and-who-it-s-actually-for.html"
@@ -155,7 +155,7 @@ const blogs2026 = [
   },
   {
     title: "Ai2's New Computing Cluster Is Live—and It's Not for Big Tech",
-    category: "Technology News",
+    category: "Consumer Technology",
     published: "May 9, 2026",
     excerpt: "Allen Institute for AI's OMAI computing cluster, powered by Nvidia Blackwell Ultra and backed by $152M in NSF and Nvidia funding, is now online and already producing results.",
     link: "blogs/2026/ai2-s-new-computing-cluster-is-live-and-it-s-not-for-big-tech.html"
@@ -197,14 +197,14 @@ const blogs2026 = [
   },
   {
     title: "Venmo Finally Makes Privacy the Default",
-    category: "Technology News",
+    category: "Consumer Technology",
     published: "May 12, 2026",
     excerpt: "Venmo's 2026 redesign changes its default privacy setting from public to friends-only. Here's what changed, why it took eight years, and what it means for your 90 million fellow users.",
     link: "blogs/2026/venmo-finally-makes-privacy-the-default.html"
   },
   {
     title: "Google Kills the Chromebook (Kind Of): What Googlebook Actually Is",
-    category: "Technology News",
+    category: "Consumer Technology",
     published: "May 13, 2026",
     excerpt: "Google just announced the Googlebook — an Android-powered Chromebook successor built around Gemini. Here's what's confirmed, what's vague, and what it means for the future of budget laptops.",
     link: "blogs/2026/google-kills-the-chromebook-kind-of-what-googlebook-actually-is.html"
@@ -225,21 +225,21 @@ const blogs2026 = [
   },
   {
     title: "Spotify Adopts Apple's HLS for Video Podcasts",
-    category: "Technology News",
+    category: "Consumer Technology",
     published: "May 15, 2026",
     excerpt: "Spotify is adopting Apple's HLS video technology for cross-platform podcast distribution. Here's what it means for creators, listeners, and the podcast industry.",
     link: "blogs/2026/spotify-adopts-apple-s-hls-for-video-podcasts.html"
   },
   {
     title: "MediaTek's Dual Packaging Bet: EMIB vs CoWoS",
-    category: "Technology News",
+    category: "Consumer Technology",
     published: "May 15, 2026",
     excerpt: "MediaTek is quietly running two advanced packaging strategies at once—TSMC CoWoS and Intel EMIB—as it scales into AI ASICs. Here's what that actually means.",
     link: "blogs/2026/mediatek-s-dual-packaging-bet-emib-vs-cowos.html"
   },
   {
     title: "Codex Goes Mobile: What OpenAI's Remote Access Means",
-    category: "Technology News",
+    category: "Consumer Technology",
     published: "May 16, 2026",
     excerpt: "OpenAI added Codex remote access to the ChatGPT mobile app on May 14, 2026. Here's how it works, what it actually does, and how it compares to Claude Code.",
     link: "blogs/2026/codex-goes-mobile-what-openais-remote-access-means.html"
@@ -253,7 +253,7 @@ const blogs2026 = [
   },
   {
     title: "ChatGPT Now Connects to Your Bank Account",
-    category: "Technology News",
+    category: "Consumer Technology",
     published: "May 17, 2026",
     excerpt: "OpenAI launched ChatGPT personal finance tools on May 15, 2026. Here's what it actually does, what it can't do, and whether it's worth your data.",
     link: "blogs/2026/chatgpt-now-connects-to-your-bank-account.html"
@@ -274,7 +274,7 @@ const blogs2026 = [
   },
   {
     title: "PlayStation Plus Is Getting More Expensive—Again",
-    category: "Technology News",
+    category: "Consumer Technology",
     published: "May 19, 2026",
     excerpt: "PS Plus Essential prices rise May 20, 2026 for new subscribers. Here's what's changing, who's actually affected, and what Sony still isn't saying.",
     link: "blogs/2026/playstation-plus-is-getting-more-expensive-again.html"
@@ -288,35 +288,35 @@ const blogs2026 = [
   },
   {
     title: "Gemini 3.5: Frontier Intelligence With Action",
-    category: "Technology News",
+    category: "Consumer Technology",
     published: "May 20, 2026",
     excerpt: "Gemini 3.5 Flash launched at Google I/O 2026 as Google's strongest agentic model yet—4x faster than rivals, cheaper than Pro, and built to execute, not just answer.",
     link: "blogs/2026/gemini-3-5-frontier-intelligence-with-action.html"
   },
   {
     title: "Google Antigravity 2.0: What Actually Changed",
-    category: "Technology News",
+    category: "Consumer Technology",
     published: "May 20, 2026",
     excerpt: "Google launched Antigravity 2.0 at IO 2026 with a redesigned desktop app and a new CLI. Here's what's genuinely new, what's still rough, and whether it's worth switching now.",
     link: "blogs/2026/google-antigravity-2-0-what-actually-changed.html"
   },
   {
     title: "Google Tensor SDK Beta + LiteRT: What It Means",
-    category: "Technology News",
+    category: "Consumer Technology",
     published: "May 21, 2026",
     excerpt: "The Google Tensor ML SDK just entered Beta with LiteRT integration, bringing TPU access, 100+ models, and a unified compile-deploy-run workflow to Pixel 10 devices.",
     link: "blogs/2026/google-tensor-sdk-beta-litert-what-it-means.html"
   },
   {
     title: "Oura Ring 5 Launches Next Week",
-    category: "Technology News",
+    category: "Consumer Technology",
     published: "May 22, 2026",
     excerpt: "A leaked internal doc reveals the Oura Ring 5 announcement is May 28, with pre-orders the same day and deliveries starting June 4. Here's what we know.",
     link: "blogs/2026/oura-ring-5-launches-next-week.html"
   },
   {
     title: "Fitbit Air Gets a New Rival Days Before Launch",
-    category: "Technology News",
+    category: "Consumer Technology",
     published: "May 22, 2026",
     excerpt: "The Fitbit Air launches May 26 at $99, but the Luna Band just went official—subscription-free and voice-led. Here's what the crowded screenless tracker market looks like now.",
     link: "blogs/2026/fitbit-air-gets-a-new-rival-days-before-launch.html"
@@ -330,21 +330,21 @@ const blogs2026 = [
   },
   {
     title: "NES and SNES Classics Were a Lifeline, Not Fan Service",
-    category: "Technology News",
+    category: "Consumer Technology",
     published: "May 24, 2026",
     excerpt: "Reggie Fils-Aimé confirmed the NES and SNES Classic Editions were built to sustain Nintendo's business while the Wii U slowly died. Here's what that actually means.",
     link: "blogs/2026/nes-and-snes-classics-were-a-lifeline-not-fan-service.html"
   },
   {
     title: "Xiaomi 17T and 17T Pro: Leaked Prices",
-    category: "Technology News",
+    category: "Consumer Technology",
     published: "May 25, 2026",
     excerpt: "Xiaomi 17T and 17T Pro prices have leaked across multiple regions ahead of the May 28 global launch. Here's what to expect from each model and whether the pricing makes sense.",
     link: "blogs/2026/xiaomi-17t-and-17t-pro-leaked-prices.html"
   },
   {
     title: "Cybersecurity Courses Are Reshaping Careers",
-    category: "Technology News",
+    category: "Guides & Tutorials",
     published: "May 26, 2026",
     excerpt: "Why professionals across every industry are enrolling in cybersecurity courses in 2026—and what that shift actually means for your career trajectory.",
     link: "blogs/2026/cybersecurity-courses-are-reshaping-careers.html"
@@ -372,21 +372,21 @@ const blogs2026 = [
   },
   {
     title: "Claude Opus 4.8: Smarter and More Honest",
-    category: "Technology News",
+    category: "Consumer Technology",
     published: "May 29, 2026",
     excerpt: "Opus 4.8 brings sharper judgment, better honesty, and parallel agentic coding. Same price as Opus 4.7. What changed and why it matters for teams.",
     link: "blogs/2026/claude-opus-4-8-smarter-and-more-honest.html"
   },
   {
     title: "Redmi Headphones Neo: Specs, Price, and Global Availability",
-    category: "Technology News",
+    category: "Consumer Technology",
     published: "May 30, 2026",
     excerpt: "Xiaomi's Redmi Headphones Neo just launched globally with 42dB ANC, 72-hour battery, and USB-C Hi-Res Audio. Here's what the specs actually mean — and what they don't.",
     link: "blogs/2026/redmi-headphones-neo-specs-price-and-global-availability.html"
   },
   {
     title: "TP-Link Archer 8: Wi-Fi 8 Router Review",
-    category: "Technology News",
+    category: "Consumer Technology",
     published: "May 30, 2026",
     excerpt: "TP-Link's Archer 8 launches October 2026 on an unfinished standard. Here's what Wi-Fi 8 actually changes, what it doesn't, and whether you should care.",
     link: "blogs/2026/tp-link-archer-8-wi-fi-8-router-review.html"
@@ -407,28 +407,28 @@ const blogs2026 = [
   },
   {
     title: "Nvidia's AI Agent PCs Are Here. This Changes Everything",
-    category: "Technology News",
+    category: "Consumer Technology",
     published: "June 2, 2026",
     excerpt: "Nvidia's RTX Spark superchip, unveiled at Computex 2026, is the first PC platform built from scratch for AI agents. Here's what it actually means and who it's for.",
     link: "blogs/2026/nvidias-ai-agent-pcs-are-here-this-changes-everything.html"
   },
   {
     title: "Rayman Legends Retold: October 1 Launch Guide",
-    category: "Technology News",
+    category: "Consumer Technology",
     published: "June 3, 2026",
     excerpt: "Rayman Legends Retold launches October 1, 2026 on PS5, Xbox Series X|S, Switch 2, and PC for $39.99. Here's everything confirmed: platforms, editions, and new features.",
     link: "blogs/2026/rayman-legends-retold-october-1-launch-guide.html"
   },
   {
     title: "Google's AI Virtual Try-On: What It Does",
-    category: "Technology News",
+    category: "Consumer Technology",
     published: "June 4, 2026",
     excerpt: "Google's AI virtual try-on lets you see billions of clothes on your own photo before buying. Here's how the tech works, what it can't do, and who it matters to.",
     link: "blogs/2026/googles-ai-virtual-try-on-what-it-does.html"
   },
   {
     title: "ID@Xbox Indie Selects Demo Fest: June 2026",
-    category: "Technology News",
+    category: "Consumer Technology",
     published: "June 5, 2026",
     excerpt: "The ID@Xbox Indie Selects Demo Fest is live June 4–30, 2026. Over 30 free indie game demos on Xbox Series X|S, Xbox One, and PC. Here's everything you need to know.",
     link: "blogs/2026/id-xbox-indie-selects-demo-fest-june-2026.html"
@@ -456,21 +456,21 @@ const blogs2026 = [
   },
   {
     title: "Xbox Series X25: Everything You Need to Know",
-    category: "Technology News",
+    category: "Consumer Technology",
     published: "June 8, 2026",
     excerpt: "The Xbox Series X25 Limited Edition launches November 2026. Translucent OG Green design, same Series X hardware, no price confirmed. Here's what's real and what matters.",
     link: "blogs/2026/xbox-series-x25-everything-you-need-to-know.html"
   },
   {
     title: "Apple's New Siri AI: Worth the Two-Year Wait?",
-    category: "Technology News",
+    category: "Consumer Technology",
     published: "June 9, 2026",
     excerpt: "Apple unveiled Siri AI at WWDC 2026—a rebuilt, conversational assistant arriving as a standalone app in September 2026. Here's what actually changed, and what still hasn't.",
     link: "blogs/2026/apples-new-siri-ai-worth-the-two-year-wait.html"
   },
   {
     title: "Claude Fable 5 and Mythos 5: Everything You Need to Know",
-    category: "Technology News",
+    category: "Consumer Technology",
     published: "June 10, 2026",
     excerpt: "Claude Fable 5 launches June 9, 2026 — Anthropic's first public Mythos-class model. Pricing, access windows, API details, benchmarks, and how it compares to Mythos 5.",
     link: "blogs/2026/claude-fable-5-and-mythos-5-everything-you-need-to-know.html"
@@ -484,14 +484,14 @@ const blogs2026 = [
   },
   {
     title: "Insta360 Luna Ultra: What Creators Need to Know",
-    category: "Technology News",
+    category: "Consumer Technology",
     published: "June 11, 2026",
     excerpt: "Insta360 Luna Ultra launches June 10, 2026 at $769.99. Here's what the Leica co-engineered gimbal camera actually does—and who it's really for.",
     link: "blogs/2026/insta360-luna-ultra-what-creators-need-to-know.html"
   },
   {
     title: "Cash App Mobile: $40 Unlimited 5G Explained",
-    category: "Technology News",
+    category: "Consumer Technology",
     published: "June 12, 2026",
     excerpt: "Cash App launched a $40/month unlimited 5G plan on AT&T's network on June 11, 2026. No contracts, no credit checks. Here's what you actually get.",
     link: "blogs/2026/cash-app-mobile-40-unlimited-5g-explained.html"
@@ -505,7 +505,7 @@ const blogs2026 = [
   },
   {
     title: "Automated Social Media Accounts in 2026",
-    category: "Technology News",
+    category: "Guides & Tutorials",
     published: "June 13, 2026",
     excerpt: "Automation won't grow your account. It will manage it. Here's the real difference — and exactly how to use it without getting banned in 2026.",
     link: "blogs/2026/automated-social-media-accounts-in-2026.html"
@@ -526,7 +526,7 @@ const blogs2026 = [
   },
   {
     title: "Microsoft Project Solara: The Agent-First Platform",
-    category: "Technology News",
+    category: "Consumer Technology",
     published: "June 15, 2026",
     excerpt: "Microsoft's Project Solara ditches Windows and apps entirely. Here's what it is, how it works, and why it could reshape enterprise computing.",
     link: "blogs/2026/microsoft-project-solara-the-agent-first-platform.html"
@@ -547,10 +547,17 @@ const blogs2026 = [
   },
   {
     title: "Apple Watch Ultra 4: Everything Known So Far",
-    category: "Technology News",
+    category: "Consumer Technology",
     published: "June 17, 2026",
     excerpt: "Apple Watch Ultra 4 arrives September 2026 with a thinner case, possible Touch ID, doubled health sensors, and a new S11 chip. Here's what the leaks actually mean.",
     link: "blogs/2026/apple-watch-ultra-4-everything-known-so-far.html"
+  },
+  {
+    title: "Echo Show 11 Hits Record Low in 2026",
+    category: "Consumer Technology",
+    published: "June 18, 2026",
+    excerpt: "The Echo Show 11 just dropped to $150 ahead of Prime Day 2026—a 32% cut on Amazon's most capable smart display yet. Here's what changed and whether it's worth it.",
+    link: "blogs/2026/echo-show-11-hits-record-low-in-2026.html"
   }
 ];
 
