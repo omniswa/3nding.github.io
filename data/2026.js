@@ -558,6 +558,13 @@ const blogs2026 = [
     published: "June 18, 2026",
     excerpt: "The Echo Show 11 just dropped to $150 ahead of Prime Day 2026—a 32% cut on Amazon's most capable smart display yet. Here's what changed and whether it's worth it.",
     link: "blogs/2026/echo-show-11-hits-record-low-in-2026.html"
+  },
+  {
+    title: "SanDisk's $3K PS5 SSD Isn't a Scam. It's a Warning.",
+    category: "Consumer Technology",
+    published: "June 19, 2026",
+    excerpt: "SanDisk's Optimus GX PRO 8TB PS5 SSD costs $2,960. Here's why that price isn't insane—it's a symptom of a global memory crisis built by AI.",
+    link: "blogs/2026/sandisks-3k-ps5-ssd-isnt-a-scam-its-a-warning.html"
   }
 ];
 
