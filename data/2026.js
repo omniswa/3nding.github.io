@@ -565,6 +565,13 @@ const blogs2026 = [
     published: "June 19, 2026",
     excerpt: "SanDisk's Optimus GX PRO 8TB PS5 SSD costs $2,960. Here's why that price isn't insane—it's a symptom of a global memory crisis built by AI.",
     link: "blogs/2026/sandisks-3k-ps5-ssd-isnt-a-scam-its-a-warning.html"
+  },
+  {
+    title: "YouTube TV Silently Cut Features on Older Devices",
+    category: "Consumer Technology",
+    published: "June 20, 2026",
+    excerpt: "YouTube TV quietly removed Live Guide background playback and cut the program schedule to 24 hours on older, less powerful devices — including many Roku models — with no public announcement.",
+    link: "blogs/2026/youtube-tv-silently-cut-features-on-older-devices.html"
   }
 ];
 
