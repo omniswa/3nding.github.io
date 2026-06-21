@@ -572,6 +572,13 @@ const blogs2026 = [
     published: "June 20, 2026",
     excerpt: "YouTube TV quietly removed Live Guide background playback and cut the program schedule to 24 hours on older, less powerful devices — including many Roku models — with no public announcement.",
     link: "blogs/2026/youtube-tv-silently-cut-features-on-older-devices.html"
+  },
+  {
+    title: "GLM-5.2 Dethrones Claude Fable 5 in Web Design",
+    category: "Consumer Technology",
+    published: "June 21, 2026",
+    excerpt: "China's GLM-5.2 just hit #1 on Design Arena's HTML web design leaderboard with an Elo of 1360, edging out Claude Fable 5. Here's what actually happened—and what it means.",
+    link: "blogs/2026/glm-5-2-dethrones-claude-fable-5-in-web-design.html"
   }
 ];
 
