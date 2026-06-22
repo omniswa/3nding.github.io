@@ -579,6 +579,13 @@ const blogs2026 = [
     published: "June 21, 2026",
     excerpt: "China's GLM-5.2 just hit #1 on Design Arena's HTML web design leaderboard with an Elo of 1360, edging out Claude Fable 5. Here's what actually happened—and what it means.",
     link: "blogs/2026/glm-5-2-dethrones-claude-fable-5-in-web-design.html"
+  },
+  {
+    title: "ASUS Zenbook S14 2026: Everything You Need to Know",
+    category: "Consumer Technology",
+    published: "June 22, 2026",
+    excerpt: "The 2026 ASUS Zenbook S14 runs Intel's Panther Lake chip, hits 10–22 hours of real battery life, and starts at $1,999.99 in the US. Here's what actually matters.",
+    link: "blogs/2026/asus-zenbook-s14-2026-everything-you-need-to-know.html"
   }
 ];
 
