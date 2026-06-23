@@ -586,6 +586,13 @@ const blogs2026 = [
     published: "June 22, 2026",
     excerpt: "The 2026 ASUS Zenbook S14 runs Intel's Panther Lake chip, hits 10–22 hours of real battery life, and starts at $1,999.99 in the US. Here's what actually matters.",
     link: "blogs/2026/asus-zenbook-s14-2026-everything-you-need-to-know.html"
+  },
+  {
+    title: "Valve Steam Machine 2026: The Full Reality Check",
+    category: "Consumer Technology",
+    published: "June 23, 2026",
+    excerpt: "Valve's Steam Machine is finally here. Specs, real pricing ($1,049–$1,428), what it runs, what it won't, and whether it's actually worth buying in 2026.",
+    link: "blogs/2026/valve-steam-machine-2026-the-full-reality-check.html"
   }
 ];
 
