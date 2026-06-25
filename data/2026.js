@@ -600,6 +600,13 @@ const blogs2026 = [
     published: "June 24, 2026",
     excerpt: "Most VPNs fail at streaming in 2026. Here's exactly which services block them, which ones don't, and the only tools that still reliably work.",
     link: "blogs/2026/streaming-with-a-vpn-what-works-in-2026.html"
+  },
+  {
+    title: "Sony Is Cleaning the PS Store. Finally.",
+    category: "Technology News",
+    published: "June 25, 2026",
+    excerpt: "Sony has confirmed stricter publishing guidelines for PlayStation in 2026, removing thousands of shovelware titles. Here's what happened, why it matters, and what's still broken.",
+    link: "blogs/2026/sony-is-cleaning-the-ps-store-finally.html"
   }
 ];
 
