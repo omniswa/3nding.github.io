@@ -607,6 +607,13 @@ const blogs2026 = [
     published: "June 25, 2026",
     excerpt: "Sony has confirmed stricter publishing guidelines for PlayStation in 2026, removing thousands of shovelware titles. Here's what happened, why it matters, and what's still broken.",
     link: "blogs/2026/sony-is-cleaning-the-ps-store-finally.html"
+  },
+  {
+    title: "Apple's Worst Day in a Year Was Inevitable",
+    category: "Technology News",
+    published: "June 26, 2026",
+    excerpt: "Apple stock fell 6.15% after raising MacBook and iPad prices by up to $300. Here's why \"RAMageddon\" forced the move—and what it signals for every device you buy next.",
+    link: "blogs/2026/apples-worst-day-in-a-year-was-inevitable.html"
   }
 ];
 
