@@ -614,6 +614,13 @@ const blogs2026 = [
     published: "June 26, 2026",
     excerpt: "Apple stock fell 6.15% after raising MacBook and iPad prices by up to $300. Here's why \"RAMageddon\" forced the move—and what it signals for every device you buy next.",
     link: "blogs/2026/apples-worst-day-in-a-year-was-inevitable.html"
+  },
+  {
+    title: "ChromeOS 149: 429 Security Fixes and What's New",
+    category: "Technology News",
+    published: "June 27, 2026",
+    excerpt: "ChromeOS 149 is rolling out now with the largest security patch in Chrome's history—429 vulnerabilities fixed—plus useful desktop upgrades. Here's what changed and why it matters.",
+    link: "blogs/2026/chromeos-149-429-security-fixes-and-whats-new.html"
   }
 ];
 
