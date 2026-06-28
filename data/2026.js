@@ -621,6 +621,13 @@ const blogs2026 = [
     published: "June 27, 2026",
     excerpt: "ChromeOS 149 is rolling out now with the largest security patch in Chrome's history—429 vulnerabilities fixed—plus useful desktop upgrades. Here's what changed and why it matters.",
     link: "blogs/2026/chromeos-149-429-security-fixes-and-whats-new.html"
+  },
+  {
+    title: "Honor Magic V6: The Foldable That Finally Got It Right",
+    category: "Consumer Technology",
+    published: "June 28, 2026",
+    excerpt: "The Honor Magic V6 is the slimmest, most capable foldable of 2026. Here's what makes it genuinely different—and where it still falls short.",
+    link: "blogs/2026/honor-magic-v6-the-foldable-that-finally-got-it-right.html"
   }
 ];
 
