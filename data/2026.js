@@ -628,6 +628,13 @@ const blogs2026 = [
     published: "June 28, 2026",
     excerpt: "The Honor Magic V6 is the slimmest, most capable foldable of 2026. Here's what makes it genuinely different—and where it still falls short.",
     link: "blogs/2026/honor-magic-v6-the-foldable-that-finally-got-it-right.html"
+  },
+  {
+    title: "Vivo X300 Ultra 2026: Full Review & What to Know",
+    category: "Consumer Technology",
+    published: "June 29, 2026",
+    excerpt: "Vivo's first globally launched Ultra flagship. Dual 200MP sensors, ZEISS glass, a 6,600mAh battery. Here's what it actually delivers — and where it quietly falls short.",
+    link: "blogs/2026/vivo-x300-ultra-2026-full-review-what-to-know.html"
   }
 ];
 
