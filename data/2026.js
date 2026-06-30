@@ -635,6 +635,13 @@ const blogs2026 = [
     published: "June 29, 2026",
     excerpt: "Vivo's first globally launched Ultra flagship. Dual 200MP sensors, ZEISS glass, a 6,600mAh battery. Here's what it actually delivers — and where it quietly falls short.",
     link: "blogs/2026/vivo-x300-ultra-2026-full-review-what-to-know.html"
+  },
+  {
+    title: "Cheaper AI Models Are Winning. Here's Why.",
+    category: "Guides & Tutorials",
+    published: "June 30, 2026",
+    excerpt: "AI costs are exploding in 2026. Businesses are switching cheaper models — and not losing quality. Here's what's driving the shift and how to navigate it.",
+    link: "blogs/2026/cheaper-ai-models-are-winning-heres-why.html"
   }
 ];
 
