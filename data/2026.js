@@ -642,6 +642,13 @@ const blogs2026 = [
     published: "June 30, 2026",
     excerpt: "AI costs are exploding in 2026. Businesses are switching cheaper models — and not losing quality. Here's what's driving the shift and how to navigate it.",
     link: "blogs/2026/cheaper-ai-models-are-winning-heres-why.html"
+  },
+  {
+    title: "Sonnet 5 Nearly Matches Opus 4.8. Here's the Catch.",
+    category: "Consumer Technology",
+    published: "July 1, 2026",
+    excerpt: "Claude Sonnet 5 closes most of the gap to Opus 4.8 on benchmarks and costs 60% less through August 31, 2026. Here's what actually changes.",
+    link: "blogs/2026/sonnet-5-nearly-matches-opus-4-8-heres-the-catch.html"
   }
 ];
 
