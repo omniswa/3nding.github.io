@@ -649,6 +649,13 @@ const blogs2026 = [
     published: "July 1, 2026",
     excerpt: "Claude Sonnet 5 closes most of the gap to Opus 4.8 on benchmarks and costs 60% less through August 31, 2026. Here's what actually changes.",
     link: "blogs/2026/sonnet-5-nearly-matches-opus-4-8-heres-the-catch.html"
+  },
+  {
+    title: "Gemini Can Now Buy Things For You. Here's How It Works",
+    category: "Consumer Technology",
+    published: "July 2, 2026",
+    excerpt: "Google's Gemini can now search, compare, and check out products for you. Here's exactly how AI shopping in Gemini works in 2026, and where it still needs a human.",
+    link: "blogs/2026/gemini-can-now-buy-things-for-you-heres-how-it-works.html"
   }
 ];
 
