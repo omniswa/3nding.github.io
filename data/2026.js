@@ -656,6 +656,13 @@ const blogs2026 = [
     published: "July 2, 2026",
     excerpt: "Google's Gemini can now search, compare, and check out products for you. Here's exactly how AI shopping in Gemini works in 2026, and where it still needs a human.",
     link: "blogs/2026/gemini-can-now-buy-things-for-you-heres-how-it-works.html"
+  },
+  {
+    title: "AI Factories Are Splitting the Power Equipment Market in Two",
+    category: "Technology News",
+    published: "July 3, 2026",
+    excerpt: "AI data centers are reshaping the power equipment market in 2026. See which manufacturers are winning, who's losing, and why transformers matter more than chips.",
+    link: "blogs/2026/ai-factories-are-splitting-the-power-equipment-market-in-two.html"
   }
 ];
 
