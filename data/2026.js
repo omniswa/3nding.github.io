@@ -663,7 +663,15 @@ const blogs2026 = [
     published: "July 3, 2026",
     excerpt: "AI data centers are reshaping the power equipment market in 2026. See which manufacturers are winning, who's losing, and why transformers matter more than chips.",
     link: "blogs/2026/ai-factories-are-splitting-the-power-equipment-market-in-two.html"
+  },
+  {
+    title: "Amazon Leo Internet Is Finally Launching in 2026",
+    category: "Consumer Technology",
+    published: "July 4, 2026",
+    excerpt: "Amazon Leo has enough satellites to begin initial internet service in 2026. Here's what's confirmed, what's still missing, and when you'll actually get access.",
+    link: "blogs/2026/amazon-leo-internet-is-finally-launching-in-2026.html"
   }
+  
 ];
 
 export default blogs2026;

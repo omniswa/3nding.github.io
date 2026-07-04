@@ -4,21 +4,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  
   <title>3NDING | Technology Insights and Digital Innovation</title>
   <meta name="description" content="Technology insights, industry trends, and updates on gadgets, software, AI, and innovations shaping the digital world.">
   <link rel="canonical" href="https://3nding.top">
   <meta name="robots" content="index, follow">
-
+  
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://3nding.top">
   <meta property="og:title" content="3nding | Technology Insights and Digital Innovation">
   <meta property="og:description" content="Technology insights, industry trends, and updates on gadgets, software, AI, and innovations shaping the digital world.">
-
+  <meta property="og:image" content="https://3nding.top/og-image.webp">
+  
   <link rel="icon" href="apple-touch-icon.png" type="image/png">
   <link rel="preload" href="fonts/outfit.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="styles/index.css">
-
+  
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -32,7 +33,7 @@
       }
     }
   </script>
-
+  
   <script>
     const savedTheme = localStorage.getItem('3nding_theme');
     const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
@@ -43,7 +44,7 @@
 </head>
 
 <body>
-
+  
   <header>
     <nav>
       <a href="#" class="logo">3NDING</a>
@@ -52,7 +53,7 @@
       </div>
     </nav>
   </header>
-
+  
   <main>
     <div id="filterModal" class="modal-overlay hidden">
       <div class="modal-content">
@@ -60,10 +61,10 @@
           <h2>Search & Filters</h2>
           <button id="closeModal" class="close-btn" aria-label="Close Filters">✕</button>
         </div>
-
+        
         <section class="controls-container">
           <input type="search" id="searchInput" class="search-input" placeholder="Search what is trend...">
-
+          
           <select id="topicFilter" class="filter-select" aria-label="Select Topic">
             <option value="all">All Topics</option>
             <option value="Technology News">Technology News</option>
@@ -71,16 +72,16 @@
             <option value="Guides & Tutorials">Guides & Tutorials</option>
             <option value="Miscellaneous">Miscellaneous</option>
           </select>
-
+          
           <select id="yearFilter" class="filter-select" aria-label="Select Year">
             <option value="2026" selected>2026</option>
           </select>
-
+          
           <button id="applyFilters" class="apply-btn">Apply Filters</button>
         </section>
       </div>
     </div>
-
+    
     <section class="grid-container" id="blogGrid">
       <div class="skeleton-card">
         <div class="skel-line skel-tag"></div>
@@ -125,7 +126,7 @@
         <div class="skel-line skel-p2"></div>
       </div>
     </section>
-
+    
     <div id="pagination" class="pagination-container">
       <button class="pagination-btn" id="prevPage">PREV</button>
       <div class="pagination-info">
@@ -133,14 +134,14 @@
       </div>
       <button class="pagination-btn" id="nextPage">NEXT</button>
     </div>
-
+    
     <button id="filterFab" class="fab" aria-label="Open Filters">
       <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
       </svg>
     </button>
   </main>
-
+  
   <footer>
     <div class="f-links">
       <a href="pages/about.html">About</a>
@@ -148,14 +149,14 @@
       <a href="pages/privacy.html">Privacy</a>
       <a href="pages/terms.html">Terms</a>
     </div>
-
+    
     <p class="copy">&copy; <span id="year"></span> 3NDING. ALL RIGHTS RESERVED.</p>
-
+    
     <div class="theme-toggle-wrapper">
       <button id="themeToggle" class="theme-toggle" aria-label="Toggle Theme"></button>
     </div>
   </footer>
-
+  
   <script type="module" src="../scripts/index.js" defer></script>
 </body>
 
