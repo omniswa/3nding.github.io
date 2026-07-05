@@ -670,6 +670,13 @@ const blogs2026 = [
     published: "July 4, 2026",
     excerpt: "Amazon Leo has enough satellites to begin initial internet service in 2026. Here's what's confirmed, what's still missing, and when you'll actually get access.",
     link: "blogs/2026/amazon-leo-internet-is-finally-launching-in-2026.html"
+  },
+  {
+    title: "What Is Mistral AI? The Real Story Behind Europe's OpenAI Rival",
+    category: "Consumer Technology",
+    published: "July 5, 2026",
+    excerpt: "Mistral AI explained: funding, valuation, Vibe (formerly Le Chat), open models, and how the French lab actually competes with OpenAI in 2026.",
+    link: "blogs/2026/what-is-mistral-ai-the-real-story-behind-europes-openai-rival.html"
   }
   
 ];
