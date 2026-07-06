@@ -677,6 +677,13 @@ const blogs2026 = [
     published: "July 5, 2026",
     excerpt: "Mistral AI explained: funding, valuation, Vibe (formerly Le Chat), open models, and how the French lab actually competes with OpenAI in 2026.",
     link: "blogs/2026/what-is-mistral-ai-the-real-story-behind-europes-openai-rival.html"
+  },
+  {
+    title: "SpaceX Deorbited 260 Starlinks: What It Actually Means",
+    category: "Technology News",
+    published: "July 6, 2026",
+    excerpt: "SpaceX disclosed 260 Starlink satellites deorbited in six months. Here's what the FCC filing really shows, and why it's not the crisis headlines suggest.",
+    link: "blogs/2026/spacex-deorbited-260-starlinks-what-it-actually-means.html"
   }
   
 ];
