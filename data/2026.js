@@ -684,6 +684,13 @@ const blogs2026 = [
     published: "July 6, 2026",
     excerpt: "SpaceX disclosed 260 Starlink satellites deorbited in six months. Here's what the FCC filing really shows, and why it's not the crisis headlines suggest.",
     link: "blogs/2026/spacex-deorbited-260-starlinks-what-it-actually-means.html"
+  },
+  {
+    title: "Marshall's New Speakers Fix the One Thing You Couldn't Fix Before",
+    category: "Consumer Technology",
+    published: "July 7, 2026",
+    excerpt: "Marshall's Acton IV and Stanmore IV add deeper bass and, for the first time, replaceable parts. Here's what actually changed and who should buy.",
+    link: "blogs/2026/marshalls-new-speakers-fix-the-one-thing-you-couldnt-fix-before.html"
   }
   
 ];
