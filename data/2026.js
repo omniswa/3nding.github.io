@@ -691,6 +691,13 @@ const blogs2026 = [
     published: "July 7, 2026",
     excerpt: "Marshall's Acton IV and Stanmore IV add deeper bass and, for the first time, replaceable parts. Here's what actually changed and who should buy.",
     link: "blogs/2026/marshalls-new-speakers-fix-the-one-thing-you-couldnt-fix-before.html"
+  },
+  {
+    title: "Starlink Gen 3: Why 100,000 Satellites Isn't About Wi-Fi Anymore",
+    category: "Technology News",
+    published: "July 8, 2026",
+    excerpt: "Starlink Gen 3 seeks FCC approval for 100,000 satellites. Here's what it means for your internet speed — and why SpaceX keeps mentioning AI.",
+    link: "blogs/2026/starlink-gen-3-why-100-000-satellites-isnt-about-wi-fi-anymore.html"
   }
   
 ];
