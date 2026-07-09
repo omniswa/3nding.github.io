@@ -698,6 +698,13 @@ const blogs2026 = [
     published: "July 8, 2026",
     excerpt: "Starlink Gen 3 seeks FCC approval for 100,000 satellites. Here's what it means for your internet speed — and why SpaceX keeps mentioning AI.",
     link: "blogs/2026/starlink-gen-3-why-100-000-satellites-isnt-about-wi-fi-anymore.html"
+  },
+  {
+    title: "Grok 4.5 vs Claude Opus: What \"Opus - Class\" Actually Means",
+    category: "Consumer Technology",
+    published: "July 9, 2026",
+    excerpt: "Grok 4.5 launched calling itself \"Opus - class.\" Here's what that label means, what it costs, and where it actually lands versus Claude and GPT.",
+    link: "blogs/2026/grok-4-5-vs-claude-opus-what-opus-class-actually-means.html"
   }
   
 ];
