@@ -705,6 +705,13 @@ const blogs2026 = [
     published: "July 9, 2026",
     excerpt: "Grok 4.5 launched calling itself \"Opus - class.\" Here's what that label means, what it costs, and where it actually lands versus Claude and GPT.",
     link: "blogs/2026/grok-4-5-vs-claude-opus-what-opus-class-actually-means.html"
+  },
+  {
+    title: "GPT-Live: OpenAI's New ChatGPT Voice Model, Explained",
+    category: "Consumer Technology",
+    published: "July 10, 2026",
+    excerpt: "OpenAI's GPT-Live lets ChatGPT listen and talk at once. Here's what changed, which tier gets which model, and whether it's worth switching for.",
+    link: "blogs/2026/gpt-live-openais-new-chatgpt-voice-model-explained.html"
   }
   
 ];
