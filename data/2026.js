@@ -712,6 +712,13 @@ const blogs2026 = [
     published: "July 10, 2026",
     excerpt: "OpenAI's GPT-Live lets ChatGPT listen and talk at once. Here's what changed, which tier gets which model, and whether it's worth switching for.",
     link: "blogs/2026/gpt-live-openais-new-chatgpt-voice-model-explained.html"
+  },
+  {
+    title: "Galaxy Z Fold 8: Release Date, Price, and What's New",
+    category: "Consumer Technology",
+    published: "July 11, 2026",
+    excerpt: "Galaxy Z Fold 8 launches July 22, 2026 in London. Here's the confirmed date, leaked prices, and the two-model split that changes everything.",
+    link: "blogs/2026/galaxy-z-fold-8-release-date-price-and-whats-new.html"
   }
   
 ];
