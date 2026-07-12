@@ -719,6 +719,13 @@ const blogs2026 = [
     published: "July 11, 2026",
     excerpt: "Galaxy Z Fold 8 launches July 22, 2026 in London. Here's the confirmed date, leaked prices, and the two-model split that changes everything.",
     link: "blogs/2026/galaxy-z-fold-8-release-date-price-and-whats-new.html"
+  },
+  {
+    title: "Safe From AI: Which Jobs Will Help You Thrive in 2026?",
+    category: "Guides & Tutorials",
+    published: "July 12, 2026",
+    excerpt: "The jobs safest from AI in 2026 aren't the ones you'd guess. Here's the real pattern behind who thrives — and how to apply it to your own career.",
+    link: "blogs/2026/safe-from-ai-which-jobs-will-help-you-thrive-in-2026.html"
   }
   
 ];
