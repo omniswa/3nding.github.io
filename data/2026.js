@@ -726,6 +726,13 @@ const blogs2026 = [
     published: "July 12, 2026",
     excerpt: "The jobs safest from AI in 2026 aren't the ones you'd guess. Here's the real pattern behind who thrives — and how to apply it to your own career.",
     link: "blogs/2026/safe-from-ai-which-jobs-will-help-you-thrive-in-2026.html"
+  },
+  {
+    title: "AMD FSR 8x Frame Generation: What's Actually Confirmed",
+    category: "Consumer Technology",
+    published: "July 13, 2026",
+    excerpt: "AMD's drivers hide an 8x FSR Multi-Frame Generation mode. Here's what RadeonTuner found, which GPUs qualify, and when it might actually ship.",
+    link: "blogs/2026/amd-fsr-8x-frame-generation-whats-actually-confirmed.html"
   }
   
 ];
