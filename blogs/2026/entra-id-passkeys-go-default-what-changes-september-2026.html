@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+
+  <title>Entra ID Passkeys Go Default: What Changes September 2026 | 3NDING</title>
+  <meta name="description" content="Microsoft Entra ID makes passkeys the default sign-in method starting September 1, 2026. Here's what changes, when, and how to prepare your tenant.">
+
+  <!-- Canonical URL (Prevents duplicate content issues) -->
+  <link rel="canonical" href="https://3nding.top/blogs/2026/entra-id-passkeys-go-default-what-changes-september-2026">
+
+  <!-- Open Graph / Facebook (For rich social sharing) -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://3nding.top/blogs/2026/entra-id-passkeys-go-default-what-changes-september-2026">
+  <meta property="og:title" content="Entra ID Passkeys Go Default: What Changes September 2026">
+  <meta property="og:description" content="Microsoft Entra ID makes passkeys the default sign-in method starting September 1, 2026. Here's what changes, when, and how to prepare your tenant.">
+  <meta property="og:image" content="https://3nding.top/og-image.webp">
+  <meta property="og:site_name" content="3NDING">
+  <meta property="article:published_time" content="2026-07-14T06:17:32.116Z">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://3nding.top/blogs/2026/entra-id-passkeys-go-default-what-changes-september-2026">
+  <meta name="twitter:title" content="Entra ID Passkeys Go Default: What Changes September 2026">
+  <meta name="twitter:description" content="Microsoft Entra ID makes passkeys the default sign-in method starting September 1, 2026. Here's what changes, when, and how to prepare your tenant.">
+  <meta name="twitter:image" content="https://3nding.top/og-image.webp">
+
+  <link rel="icon" href="../../apple-touch-icon.png" type="image/png">
+  <link rel="preload" href="../../fonts/outfit.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../../styles/index.css">
+  <link rel="stylesheet" href="../../styles/blog.css">
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://3nding.top/blogs/2026/entra-id-passkeys-go-default-what-changes-september-2026"
+      },
+      "headline": "Entra ID Passkeys Go Default: What Changes September 2026",
+      "description": "Microsoft Entra ID makes passkeys the default sign-in method starting September 1, 2026. Here's what changes, when, and how to prepare your tenant.",
+      "image": "https://3nding.top/og-image.webp",
+      "author": {
+        "@type": "Organization",
+        "name": "3NDING",
+        "url": "https://3nding.top"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "3NDING",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://3nding.top/apple-touch-icon.png"
+        }
+      },
+      "datePublished": "2026-07-14T06:17:32.116Z",
+      "dateModified": "2026-07-14T06:17:32.116Z"
+    }
+  </script>
+
+  <script>
+    const savedTheme = localStorage.getItem('3nding_theme');
+    const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+    if (savedTheme === 'light' || (!savedTheme && prefersLight)) {
+      document.documentElement.classList.add('light-theme');
+    }
+  </script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="../../index.html" class="logo">3NDING</a>
+      <div class="nav-links">
+        <a href="#" id="link">Link</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="blog-container">
+    <article class="blog-content">
+      <section class="blog-header">
+        <span class="blog-category">Technology News</span>
+        <h1>Entra ID Passkeys Go Default: What Changes September 2026</h1>
+        <div class="blog-meta">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+              <line x1="16" y1="2" x2="16" y2="6"></line>
+              <line x1="8" y1="2" x2="8" y2="6"></line>
+              <line x1="3" y1="10" x2="21" y2="10"></line>
+            </svg>
+            July 14, 2026
+          </span>
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+            10-Minute Read
+          </span>
+        </div>
+      </section>
+
+      <article class="article-content">
+        <hr>
+<p>Most security “defaults” from Microsoft roll out quietly, and admins find out after something breaks. This one isn’t like that. Starting <strong>September 1, 2026</strong>, Microsoft Entra ID begins automatically switching users off SMS and voice authentication and onto passkeys, whether you’ve planned for it or not.</p>
+<p>That’s the short answer. Now let’s get into why this is happening, what it actually means for your tenant, and where the sharp edges are.</p>
+<hr>
+<h2>The Real Reason This Is Happening Now, Not Later</h2>
+<p>Microsoft isn’t doing this because passkeys are trendy. <cite index="1-1">As identity attacks grow more sophisticated in the AI era, organizations need stronger authentication methods that protect users from phishing, credential theft, and social engineering</cite>. That’s the official framing, and it’s not spin.</p>
+<p>SMS and voice codes are phishable. An attacker doesn’t need to breach Microsoft’s infrastructure to steal one. They just need a convincing login page and a user who’s in a hurry. AI has made building that convincing login page trivial, which is why the calculus changed. <cite index="4-1">Passkeys rely on public-key cryptography and biometric or PIN-based verification stored on a trusted device, making them resistant to common attack techniques that target passwords or one-time codes</cite>.</p>
+<p>So Microsoft made a decision: stop offering the weak option as the default, and make the strong option the path of least resistance instead.</p>
+<hr>
+<h2>What Actually Happens on September 1, 2026</h2>
+<p>This is not a feature you opt into. It’s a migration that happens <em>to</em> your tenant, in phases.</p>
+<ul>
+<li><cite index="1-1">Beginning September 1, 2026, Microsoft will begin rolling out passkeys as the default authentication experience in Microsoft Entra ID</cite>. Not every tenant switches on day one. It’s staged.</li>
+<li><cite index="1-1">As the rollout reaches each organization, users enabled for SMS or voice authentication will automatically be enabled for passkeys, and the next time they perform multifactor authentication, they’ll be prompted to register a passkey</cite>. No admin ticket required. It just happens on their next MFA prompt.</li>
+<li><cite index="5-1">These in-scope users will be put into a passkey profile allowing all types of passkeys, and the Registration Campaign settings will be set to a Microsoft Managed state targeting passkeys, automatically bringing these users into scope</cite>.</li>
+</ul>
+<p>Here’s the detail that matters for planning: <cite index="5-1">by default, users will have unlimited snoozes of the nudge prompt</cite>. That sounds generous. It’s actually a warning sign. Unlimited snoozes means adoption will stall unless you push it yourself, because most users will click “remind me later” indefinitely if nobody tells them why it matters.</p>
+<hr>
+<h2>The SMS Cutoff Date Is the One People Will Miss</h2>
+<p>September 1 gets the headlines. February 1, 2027 is the date that actually hurts if you’re unprepared.</p>
+<p><cite index="1-1">Following this transition, on February 1, 2027, Microsoft will retire Microsoft-provided telecom delivery for SMS and voice authentication and will no longer offer SMS and voice as a native Microsoft-managed authentication method</cite>. Translation: the free, built-in SMS delivery that Entra ID has always handled for you goes away. Not the feature exactly, but the plumbing behind it.</p>
+<p>If your organization has a genuine reason to keep SMS or voice — regulatory requirement, a legacy system, a user population that can’t use passkeys — you’re not completely out of options. <cite index="1-1">You’ll be able to select, configure, and manage a third-party telecom provider through the Microsoft Security Store, a partner marketplace where you can contract directly with supported carriers</cite>. But that’s now a paid, third-party relationship you have to set up yourself. It used to be free and automatic. Now it’s a procurement task.</p>
+<p>Microsoft has said <cite index="1-1">on September 18, 2026, they’ll share information on supported providers, deployment guidance, and technical documentation with pricing and commercial terms available through the Microsoft Security Store</cite>. Until that date, you’re planning somewhat blind on the fallback path, which is exactly why the passkey path should be your default assumption, not your backup plan.</p>
+<hr>
+<h2>Passkeys Aren’t All Identical, and That’s the Part Admins Skip</h2>
+<p>This is where things get genuinely technical, and where a lot of organizations will make a mistake by treating “passkey” as one uniform thing.</p>
+<p>There are two flavors:</p>
+<ul>
+<li><strong>Device-bound passkeys.</strong> <cite index="3-1">The private key is created and stored on a single physical device and never leaves it</cite>. A hardware security key is the classic example. Strongest guarantee, least convenient.</li>
+<li><strong>Synced passkeys.</strong> <cite index="3-1">The private key is created by a hardware security module and encrypted on the local device, then synced and stored in the cloud passkey provider, so other devices authenticated with that provider may use the passkey</cite>. Think Windows Hello or a phone authenticator app syncing across your devices. Convenient, but the trust model is different.</li>
+</ul>
+<p>Why does this distinction matter beyond theory? Because <cite index="3-1">synced passkeys do not support attestation</cite>. Attestation is what lets you cryptographically verify which device or provider registered a credential. Without it, you can still authenticate securely, but you lose the ability to prove device provenance for compliance or high-risk-role scenarios.</p>
+<p>The practical rule most identity teams land on: use synced passkeys for the general workforce, and require device-bound, attested passkeys for privileged accounts. Global admins, anyone with standing access to sensitive data, break-glass accounts — those should not be authenticating with a credential that quietly synced itself to a personal phone.</p>
+<hr>
+<h2>The Adoption Number That Should Change How You Plan</h2>
+<p>Here’s a stat that actually tells you something, instead of just sounding impressive. <cite index="3-1">Based on learnings from hundreds of millions of consumer users of Microsoft accounts that have registered and are using synced passkeys, 99% of users successfully register synced passkeys</cite>.</p>
+<p>That’s a real signal. It means the registration friction people worry about — “our users will call the help desk nonstop” — mostly doesn’t materialize at scale. The failure mode isn’t technical difficulty. It’s inertia. People snooze prompts they don’t understand. Which loops back to why the unlimited-snooze default matters: the technology works, but only if someone actually completes the setup step.</p>
+<hr>
+<h2>The Configuration Change Nobody’s Talking About Yet</h2>
+<p>Before the September default flip, Microsoft already changed how passkey policy is structured, and if you haven’t touched your Entra config in the last few months, you may be running under new defaults you didn’t set.</p>
+<p><cite index="9-1">Organizations are rapidly moving toward passwordless authentication using passkeys in Microsoft Entra ID, and Microsoft has introduced passkey profiles to give admins more granular, group-based controls</cite>. If your tenant didn’t opt in manually, <cite index="10-1">general availability for normal tenants started in early March 2026, and if a tenant did not opt in during that window, Microsoft automatically enabled passkey profiles starting in April 2026, running through late May 2026</cite>.</p>
+<p>The part worth double-checking: <cite index="10-1">if you currently have attestation enforcement disabled, the auto-enablement allows both device-bound and synced passkeys by default</cite>. That may not match the security posture you actually intended. It’s a default, not a decision anyone on your team necessarily made.</p>
+<p>Also worth knowing: profile capacity has grown. <cite index="7-1">The passkey (FIDO2) authentication policy now receives a dedicated 20 KB allocation within the authentication methods policy, whereas previously all authentication methods shared a single 20 KB limit, and the number of passkey profiles per tenant has increased from three to ten</cite>. If you were previously constrained by policy size limits, that constraint has loosened considerably.</p>
+<hr>
+<h2>Conditional Access Will Break Registration If You’re Not Careful</h2>
+<p>This is the operational landmine. It’s not the passkey feature itself that causes outages, it’s the interaction between passkey registration and existing Conditional Access policies.</p>
+<p>Many tenants apply Conditional Access broadly, across all cloud apps, with strict requirements around device compliance or network location. <cite index="6-1">During passkey registration, the Authenticator app communicates with several backend services, and blocking any of these endpoints can break the enrollment flow</cite>. If your CA policy is too strict and catches the registration traffic, users get stuck mid-setup with no clear error message pointing back to the actual cause.</p>
+<p>There’s a related change worth flagging separately: <cite index="7-1">starting July 6, 2026, Conditional Access policies assigned to the “Register security information” action apply during registration for Windows Hello for Business and macOS Platform SSO, meaning users must meet requirements like MFA, network restrictions, or device compliance before completing registration</cite>. <cite index="7-1">Tenants without policies for this action are unaffected, and full enforcement began July 13, 2026</cite>.</p>
+<p>The fix isn’t complicated, but it does require doing it before the rollout hits you, not after. <cite index="6-1">Microsoft recommends enabling Conditional Access policies in report-only mode during early rollout phases to prevent authentication disruptions</cite>. Report-only mode shows you what would have blocked without actually blocking it. Run that first. Fix what it surfaces. Then enforce.</p>
+<hr>
+<h2>What This Means for Self-Service Password Reset</h2>
+<p>There’s a downstream change here that’s easy to miss because it’s framed as a separate update, but it’s really part of the same phishing-resistance push. <cite index="5-1">Self-Service Password Reset will accept only authentication methods that users have registered, beginning September 7, 2026</cite>.</p>
+<p>Why bundle this in? Because SSPR has historically been a soft spot. If a user could reset their password using a method that was never properly verified as belonging to them, that’s a gap an attacker could exploit for account takeover. Tightening SSPR to registered methods only closes that gap, but it also means users who haven’t registered a passkey (or any strong method) will hit a wall when they try to reset a forgotten password. Another reason to push registration early rather than let it drift.</p>
+<hr>
+<h2>A Practical Order of Operations</h2>
+<p>If you’re an Entra admin reading this in July 2026, here’s the sequence that avoids most of the pain, in the order Microsoft itself recommends:</p>
+<ol>
+<li><strong>Enable a passkey registration campaign now</strong>, before the automatic switch-on. <cite index="5-1">It’s the most effective way to move users off SMS and Voice at scale without adding help-desk load</cite>, and doing it on your terms beats having it forced on September 1.</li>
+<li><strong>Identify your SMS and voice users specifically.</strong> <cite index="5-1">These are the users who will be automatically enrolled into passkey profiles once the rollout reaches your tenant</cite>, so knowing who they are now means no surprises later.</li>
+<li><strong>Decide, deliberately, on attestation.</strong> Don’t inherit the default. Choose device-bound and attested for privileged roles, synced for everyone else, and set that policy on purpose.</li>
+<li><strong>Run Conditional Access in report-only mode first.</strong> Find out what would break registration before it actually breaks it.</li>
+<li><strong>If you need SMS or voice long-term, start the Security Store conversation early.</strong> <cite index="1-1">Starting October 30, 2026, you’ll be able to select and configure a supported telecom provider through the Microsoft Security Store</cite>, and that’s not a same-day setup.</li>
+<li><strong>Communicate with users before the nudge prompt does.</strong> <cite index="1-1">Tell affected users what’s changing, when they’ll see a passkey registration prompt, and how to complete registration on their device</cite>. A prompt with no context gets snoozed. A prompt with context gets completed.</li>
+</ol>
+<hr>
+<h2>The Bigger Picture</h2>
+<p>Microsoft frames this plainly, and it’s worth taking at face value rather than reading it as marketing language: <cite index="1-1">passkeys are becoming the default in Entra ID because they work better for users and worse for cyberattackers</cite>. That’s a rare thing in security, a change that improves both sides of the usual tradeoff at once instead of forcing you to pick one.</p>
+<p>The organizations that will have a smooth September are the ones treating this as a project starting today, not a surprise arriving in three months. The ones that wait will spend September fielding help-desk tickets from confused users and untangling Conditional Access policies they forgot they had. Same destination either way. Very different trip.</p>
+<p><em>Note: these dates apply to Microsoft Entra ID in the public cloud. Government and sovereign cloud environments follow a separate, later timeline that Microsoft has said it will announce separately.</em></p>
+
+      </article>
+    </article>
+  </main>
+
+  <footer>
+    <div class="f-links">
+      <a href="../../pages/about.html">About</a>
+      <a href="../../pages/contact.html">Contact</a>
+      <a href="../../pages/privacy.html">Privacy</a>
+      <a href="../../pages/terms.html">Terms</a>
+    </div>
+    <p class="copy">&copy; <span id="year"></span> 3NDING. ALL RIGHTS RESERVED.</p>
+    <div class="theme-toggle-wrapper">
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle Theme"></button>
+    </div>
+  </footer>
+
+  <!-- Bottom Pills & ToC Modal Code -->
+  <div id="tocModal" class="toc-modal">
+    <div class="toc-modal-content">
+      <div class="toc-header">
+        <h3>Table of Contents</h3>
+        <button id="closeToc" aria-label="Close Modal">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+      <ul id="tocList" class="toc-list"></ul>
+    </div>
+  </div>
+
+  <nav class="bottom-pill-nav">
+    <button id="btnBackToTop" aria-label="Back to Top"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg></button>
+    <div class="pill-divider"></div>
+    <button id="btnShowToc" aria-label="Table of Contents"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg></button>
+    <div class="pill-divider"></div>
+    <button id="btnShare" aria-label="Share Article"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg></button>
+  </nav>
+
+  <aside class="code-block"></aside>
+  <script src="../../scripts/blog.js" defer></script>
+</body>
+</html>

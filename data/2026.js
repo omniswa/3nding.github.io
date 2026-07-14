@@ -733,6 +733,13 @@ const blogs2026 = [
     published: "July 13, 2026",
     excerpt: "AMD's drivers hide an 8x FSR Multi-Frame Generation mode. Here's what RadeonTuner found, which GPUs qualify, and when it might actually ship.",
     link: "blogs/2026/amd-fsr-8x-frame-generation-whats-actually-confirmed.html"
+  },
+  {
+    title: "Entra ID Passkeys Go Default: What Changes September 2026",
+    category: "Technology News",
+    published: "July 14, 2026",
+    excerpt: "Microsoft Entra ID makes passkeys the default sign-in method starting September 1, 2026. Here's what changes, when, and how to prepare your tenant.",
+    link: "blogs/2026/entra-id-passkeys-go-default-what-changes-september-2026.html"
   }
   
 ];
