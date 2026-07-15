@@ -740,6 +740,13 @@ const blogs2026 = [
     published: "July 14, 2026",
     excerpt: "Microsoft Entra ID makes passkeys the default sign-in method starting September 1, 2026. Here's what changes, when, and how to prepare your tenant.",
     link: "blogs/2026/entra-id-passkeys-go-default-what-changes-september-2026.html"
+  },
+  {
+    title: "Vint Cerf, 'Father of the Internet,' Retires in 2026",
+    category: "Technology News",
+    published: "July 15, 2026",
+    excerpt: "Vint Cerf is retiring from Google on July 7, 2026, after 20+ years as chief internet evangelist. Here's what happened, and why it matters now.",
+    link: "blogs/2026/vint-cerf-father-of-the-internet-retires-in-2026.html"
   }
   
 ];
