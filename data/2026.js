@@ -747,6 +747,13 @@ const blogs2026 = [
     published: "July 15, 2026",
     excerpt: "Vint Cerf is retiring from Google on July 7, 2026, after 20+ years as chief internet evangelist. Here's what happened, and why it matters now.",
     link: "blogs/2026/vint-cerf-father-of-the-internet-retires-in-2026.html"
+  },
+  {
+    title: "Enterprise AI vs. Purpose-Built R&D Agents: 2026 Guide",
+    category: "Consumer Technology",
+    published: "July 16, 2026",
+    excerpt: "Enterprise AI or purpose-built R&D agents in 2026? Here's the real difference, when each wins, and how to avoid an expensive mismatch.",
+    link: "blogs/2026/enterprise-ai-vs-purpose-built-r-d-agents-2026-guide.html"
   }
   
 ];
