@@ -754,6 +754,13 @@ const blogs2026 = [
     published: "July 16, 2026",
     excerpt: "Enterprise AI or purpose-built R&D agents in 2026? Here's the real difference, when each wins, and how to avoid an expensive mismatch.",
     link: "blogs/2026/enterprise-ai-vs-purpose-built-r-d-agents-2026-guide.html"
+  },
+  {
+    title: "Nintendo's New Dock Patent Fixes the Switch 2's Dumbest Problem",
+    category: "Consumer Technology",
+    published: "July 17, 2026",
+    excerpt: "Nintendo filed a patent for a dock that works with both the Switch and Switch 2, auto-detecting which console is plugged in. Here's what it means.",
+    link: "blogs/2026/nintendos-new-dock-patent-fixes-the-switch-2s-dumbest-problem.html"
   }
   
 ];
