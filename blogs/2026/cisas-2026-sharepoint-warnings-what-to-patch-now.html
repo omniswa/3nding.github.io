@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+
+  <title>CISA's 2026 SharePoint Warnings: What to Patch Now | 3NDING</title>
+  <meta name="description" content="CISA has flagged four actively exploited SharePoint flaws in 2026. Here's which CVEs matter, why, and exactly what to patch first.">
+
+  <!-- Canonical URL (Prevents duplicate content issues) -->
+  <link rel="canonical" href="https://3nding.top/blogs/2026/cisas-2026-sharepoint-warnings-what-to-patch-now">
+
+  <!-- Open Graph / Facebook (For rich social sharing) -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://3nding.top/blogs/2026/cisas-2026-sharepoint-warnings-what-to-patch-now">
+  <meta property="og:title" content="CISA's 2026 SharePoint Warnings: What to Patch Now">
+  <meta property="og:description" content="CISA has flagged four actively exploited SharePoint flaws in 2026. Here's which CVEs matter, why, and exactly what to patch first.">
+  <meta property="og:image" content="https://3nding.top/og-image.webp">
+  <meta property="og:site_name" content="3NDING">
+  <meta property="article:published_time" content="2026-07-18T14:01:38.541Z">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://3nding.top/blogs/2026/cisas-2026-sharepoint-warnings-what-to-patch-now">
+  <meta name="twitter:title" content="CISA's 2026 SharePoint Warnings: What to Patch Now">
+  <meta name="twitter:description" content="CISA has flagged four actively exploited SharePoint flaws in 2026. Here's which CVEs matter, why, and exactly what to patch first.">
+  <meta name="twitter:image" content="https://3nding.top/og-image.webp">
+
+  <link rel="icon" href="../../apple-touch-icon.png" type="image/png">
+  <link rel="preload" href="../../fonts/outfit.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../../styles/index.css">
+  <link rel="stylesheet" href="../../styles/blog.css">
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://3nding.top/blogs/2026/cisas-2026-sharepoint-warnings-what-to-patch-now"
+      },
+      "headline": "CISA's 2026 SharePoint Warnings: What to Patch Now",
+      "description": "CISA has flagged four actively exploited SharePoint flaws in 2026. Here's which CVEs matter, why, and exactly what to patch first.",
+      "image": "https://3nding.top/og-image.webp",
+      "author": {
+        "@type": "Organization",
+        "name": "3NDING",
+        "url": "https://3nding.top"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "3NDING",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://3nding.top/apple-touch-icon.png"
+        }
+      },
+      "datePublished": "2026-07-18T14:01:38.541Z",
+      "dateModified": "2026-07-18T14:01:38.541Z"
+    }
+  </script>
+
+  <script>
+    const savedTheme = localStorage.getItem('3nding_theme');
+    const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+    if (savedTheme === 'light' || (!savedTheme && prefersLight)) {
+      document.documentElement.classList.add('light-theme');
+    }
+  </script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="../../index.html" class="logo">3NDING</a>
+      <div class="nav-links">
+        <a href="#" id="link">Link</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="blog-container">
+    <article class="blog-content">
+      <section class="blog-header">
+        <span class="blog-category">Technology News</span>
+        <h1>CISA's 2026 SharePoint Warnings: What to Patch Now</h1>
+        <div class="blog-meta">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+              <line x1="16" y1="2" x2="16" y2="6"></line>
+              <line x1="8" y1="2" x2="8" y2="6"></line>
+              <line x1="3" y1="10" x2="21" y2="10"></line>
+            </svg>
+            July 18, 2026
+          </span>
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+            6-Minute Read
+          </span>
+        </div>
+      </section>
+
+      <article class="article-content">
+        <hr>
+<h2>The Short Answer, Because You Don’t Have Time For a History Lesson</h2>
+<p>If you run on-premises Microsoft SharePoint Server, CISA wants you to patch four specific vulnerabilities right now: <strong>CVE-2026-32201</strong>, <strong>CVE-2026-45659</strong>, <strong>CVE-2026-56164</strong>, and <strong>CVE-2026-58644</strong>. All four are confirmed as actively exploited, not theoretical risks. If your SharePoint server is exposed to the internet and unpatched, treat this as an active incident, not a maintenance task.</p>
+<p>That’s the whole story in two sentences. Everything below is the “why” and the “how,” because a patch order without reasoning is just a to-do list you’ll ignore.</p>
+<hr>
+<h2>Why This Keeps Happening to SharePoint Specifically</h2>
+<p>SharePoint is not just a file share. It’s the connective tissue of a lot of corporate networks — intranets, document repositories, workflow automation, single sign-on integrations. That makes it an unusually rich target. Compromise one SharePoint server and you often get a map of the whole organization, not just a folder of PDFs.</p>
+<p>This isn’t SharePoint’s first rodeo, either. Security researchers have pointed to the 2025 “ToolShell” campaign, a mass exploitation event, as the template attackers are now iterating on. Once a class of vulnerability proves profitable, criminal and state-linked groups keep probing nearby code paths for the next variant. That’s exactly what’s happening here: a steady drumbeat of related flaws, some caught before wide abuse, some not.</p>
+<hr>
+<h2>The Four Vulnerabilities, Ranked By How Much You Should Panic</h2>
+<p>Not all “critical” vulnerabilities are equally urgent. Here’s the practical breakdown.</p>
+<p><strong>CVE-2026-56164</strong> — unauthenticated privilege escalation. This is the scariest category of bug because the attacker needs zero credentials to start. It’s a missing-authentication flaw, meaning the software simply forgets to check who’s asking before handing over sensitive functions. CISA added it to the Known Exploited Vulnerabilities (KEV) catalog on July 14, 2026, and gave federal agencies only three days to fix it. Three days is not a normal timeline. It’s a signal that the agency has seen real damage.</p>
+<p><strong>CVE-2026-58644</strong> — remote code execution via deserialization, CVSS 9.8. This one requires an attacker to already have Site Owner-level access, which sounds like a mitigating factor until you remember how often internal accounts get phished or reused. Microsoft has confirmed this was exploited as a zero-day, meaning attackers were using it before a patch existed. That’s a meaningfully worse situation than a bug found by a researcher first.</p>
+<p><strong>CVE-2026-45659</strong> — remote code execution, CVSS 8.8, also a deserialization bug. Patched back in May 2026 through an out-of-band update, which itself tells you Microsoft considered it too urgent to wait for the normal Patch Tuesday cycle. Attackers didn’t need much technical sophistication to weaponize it, according to Microsoft’s own advisory language, which is corporate-speak for “assume script kiddies can do this too.”</p>
+<p><strong>CVE-2026-32201</strong> — the oldest of the four, added to KEV back in April 2026. If you haven’t patched this by now, the honest read is that patching isn’t part of your regular operations, and that’s a bigger problem than any single CVE.</p>
+<hr>
+<h2>Why “We’ll Patch It Next Cycle” Is the Wrong Instinct Here</h2>
+<p>Most vulnerability management runs on a monthly rhythm. Patch Tuesday comes, IT tests updates, they roll out over a few weeks. That cadence works fine for the bulk of routine bugs.</p>
+<p>It does not work for anything on CISA’s KEV list. Inclusion in KEV specifically means the agency has evidence of real-world exploitation, not just theoretical risk. Under Binding Operational Directive 26-04, federal civilian agencies are legally required to patch KEV-listed flaws on an accelerated timeline, sometimes within days. Private organizations aren’t bound by that directive, but the underlying logic still applies to everyone: if a vulnerability is already being used in attacks, your risk clock started before you even read this article.</p>
+<p>There’s also a numbers problem worth sitting with. Security researchers at Shadowserver have tracked roughly 10,000 SharePoint servers exposed directly to the internet, with hundreds still unpatched against known flaws. Attackers don’t need to target you specifically. They scan the whole internet for exposed, vulnerable servers and work through the list. Obscurity isn’t protection here.</p>
+<hr>
+<h2>What Attackers Actually Do Once They’re In</h2>
+<p>This part matters because it changes what “patched” even means. In several of these campaigns, attackers didn’t just gain access and leave — they stole Internet Information Services (IIS) machine keys. Those keys let an attacker forge trusted requests even after the original vulnerability gets patched. Patching closes the front door. It doesn’t necessarily evict someone who already stole a key while the door was open.</p>
+<p>That’s the uncomfortable part of this story. If your server was exposed and unpatched for any meaningful window, patching alone may not be enough.</p>
+<hr>
+<h2>A Practical Checklist, Not Just a Patch List</h2>
+<ul>
+<li><strong>Patch all four CVEs</strong>, prioritizing CVE-2026-56164 first since it needs no authentication at all.</li>
+<li><strong>Rotate IIS machine keys</strong> after patching if the server was ever internet-exposed during the vulnerable window. This closes the persistence loophole attackers rely on.</li>
+<li><strong>Enable Windows Antimalware Scan Interface (AMSI)</strong> for SharePoint web applications. CISA specifically calls this out because it lets Defender inspect scripts in memory before they execute, catching attacks that file-based scanning misses.</li>
+<li><strong>Check exposure</strong>, not just patch status. An unpatched internal-only server is a different risk tier than one facing the open internet.</li>
+<li><strong>Shorten your patch cycle for SharePoint specifically.</strong> Treat it like the crown-jewel system it functions as, not like a routine line-of-business app.</li>
+</ul>
+<hr>
+<h2>The Bigger Pattern Worth Remembering</h2>
+<p>None of this is really about SharePoint being uniquely bad software. It’s about SharePoint being uniquely central. Any system that sits at the intersection of documents, identity, and workflow automation will keep attracting this level of attention, patch after patch, year after year.</p>
+<p>The organizations that stay ahead of it aren’t the ones with the fastest patch — they’re the ones who assume every KEV listing is a live fire drill rather than a line item. That mindset shift costs nothing and saves everything.</p>
+<p>For the latest guidance and exact remediation deadlines, check CISA’s alert directly at cisa.gov rather than relying on secondhand summaries, since these advisories get updated as new exploitation details emerge.</p>
+
+      </article>
+    </article>
+  </main>
+
+  <footer>
+    <div class="f-links">
+      <a href="../../pages/about.html">About</a>
+      <a href="../../pages/contact.html">Contact</a>
+      <a href="../../pages/privacy.html">Privacy</a>
+      <a href="../../pages/terms.html">Terms</a>
+    </div>
+    <p class="copy">&copy; <span id="year"></span> 3NDING. ALL RIGHTS RESERVED.</p>
+    <div class="theme-toggle-wrapper">
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle Theme"></button>
+    </div>
+  </footer>
+
+  <!-- Bottom Pills & ToC Modal Code -->
+  <div id="tocModal" class="toc-modal">
+    <div class="toc-modal-content">
+      <div class="toc-header">
+        <h3>Table of Contents</h3>
+        <button id="closeToc" aria-label="Close Modal">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+      <ul id="tocList" class="toc-list"></ul>
+    </div>
+  </div>
+
+  <nav class="bottom-pill-nav">
+    <button id="btnBackToTop" aria-label="Back to Top"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg></button>
+    <div class="pill-divider"></div>
+    <button id="btnShowToc" aria-label="Table of Contents"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg></button>
+    <div class="pill-divider"></div>
+    <button id="btnShare" aria-label="Share Article"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg></button>
+  </nav>
+
+  <aside class="code-block"></aside>
+  <script src="../../scripts/blog.js" defer></script>
+</body>
+</html>

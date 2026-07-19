@@ -761,6 +761,20 @@ const blogs2026 = [
     published: "July 17, 2026",
     excerpt: "Nintendo filed a patent for a dock that works with both the Switch and Switch 2, auto-detecting which console is plugged in. Here's what it means.",
     link: "blogs/2026/nintendos-new-dock-patent-fixes-the-switch-2s-dumbest-problem.html"
+  },
+  {
+    title: "CISA's 2026 SharePoint Warnings: What to Patch Now",
+    category: "Technology News",
+    published: "July 18, 2026",
+    excerpt: "CISA has flagged four actively exploited SharePoint flaws in 2026. Here's which CVEs matter, why, and exactly what to patch first.",
+    link: "blogs/2026/cisas-2026-sharepoint-warnings-what-to-patch-now.html"
+  },
+  {
+    title: "Google Pixel 11 Leaks 2026: Every Confirmed Detail So Far",
+    category: "Consumer Technology",
+    published: "July 19, 2026",
+    excerpt: "Google Pixel 11 leaks 2026: pricing, specs, colors, Tensor G6, camera, and release date for all four models — before the August 12 launch.",
+    link: "blogs/2026/google-pixel-11-leaks-2026-every-confirmed-detail-so-far.html"
   }
   
 ];
