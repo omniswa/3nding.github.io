@@ -775,6 +775,13 @@ const blogs2026 = [
     published: "July 19, 2026",
     excerpt: "Google Pixel 11 leaks 2026: pricing, specs, colors, Tensor G6, camera, and release date for all four models — before the August 12 launch.",
     link: "blogs/2026/google-pixel-11-leaks-2026-every-confirmed-detail-so-far.html"
+  },
+  {
+    title: "Google's New Android Backup Rule Could Quietly Eat Your Storage",
+    category: "Technology News",
+    published: "July 20, 2026",
+    excerpt: "Google now counts SMS, call history, and settings toward your 15GB limit. Here's what's changing, when, and how to check your own numbers.",
+    link: "blogs/2026/googles-new-android-backup-rule-could-quietly-eat-your-storage.html"
   }
   
 ];
