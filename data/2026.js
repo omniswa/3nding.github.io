@@ -782,6 +782,13 @@ const blogs2026 = [
     published: "July 20, 2026",
     excerpt: "Google now counts SMS, call history, and settings toward your 15GB limit. Here's what's changing, when, and how to check your own numbers.",
     link: "blogs/2026/googles-new-android-backup-rule-could-quietly-eat-your-storage.html"
+  },
+  {
+    title: "SanDisk's New USB-C Flash Drives (2026): What's Actually New",
+    category: "Technology News",
+    published: "July 21, 2026",
+    excerpt: "SanDisk's 2026 CZB Series brings native USB-C to budget flash drives, up to 256GB, 250MB/s reads, starting at $19.99. Here's what changed.",
+    link: "blogs/2026/sandisks-new-usb-c-flash-drives-2026-whats-actually-new.html"
   }
   
 ];
